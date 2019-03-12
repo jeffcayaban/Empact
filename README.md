@@ -30,9 +30,9 @@ Follow these instructions to learn how to install and setup the project files.
 ### Prerequisites
 
 You will need the following technologies in order to run the system:
-* Node (v6+) and Npm (v5.2+) - [Install](https://nodejs.org/en/)
+* Node (v10.15+) - [Install](https://nodejs.org/en/)
+* Yarn (v1.13+) - [Install](https://nodejs.org/en/)
 * Java 1.8 - [Install](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-* Maven (v3.3+) - [Install](https://maven.apache.org/download.cgi)
 
 ### Installing
 You can download the profile files by downloading the project on the GitHub page or by cloning the project through git.
@@ -44,10 +44,19 @@ git clone https://github.com/jeffcayaban/Empact.git
 ```
 
 ### Building
-Once you have downloaded the project, we can now build the project files. Run the following command (in the project's directory) to build the required project files:
+Once you have downloaded the project, we can now build the project files.
+
+If you are using are using MacOS then run the following command (in the project's directory) to build the required project files:
+
 ```bash
-mvn package
+./mvnw package
 ```
+If you are using are using Windows then run the following command (in the project's directory) to build the required project files:
+
+```bash
+mvnw.cmd package
+```
+
 <a class="anchor" id="usage"></a>
 ## Usage
 Once you have built the project, you can now run the system by running the following command in the project's directory:
@@ -55,10 +64,7 @@ Once you have built the project, you can now run the system by running the follo
 ```bash
 java -jar target/Empact-0.0.1-SNAPSHOT.jar
 ```
-Then, start the **client-side** by going to the `/client` folder (of the project directory) and then executing the following command:
-```bash
-npm start
-```
+
 You can now use the system by going to your web browser and visiting: http://localhost:5000
 
 <a class="anchor" id="runningtests"></a>
@@ -66,11 +72,17 @@ You can now use the system by going to your web browser and visiting: http://loc
 
 To run the **client-side** tests, visit the `/src/main/app` folder and run the following command:
 ```bash
-npm test -- --coverage
+yarn test --coverage
 ```
 
 To run the **server-side** tests, simply run the following command at the root of the project's directory:
 
+On MacOS:
 ```bash
-mvn test
+./mvnw test
+```
+
+On Windows:
+```bash
+mvnw.cmd test
 ```
