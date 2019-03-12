@@ -30,8 +30,6 @@ Follow these instructions to learn how to install and setup the project files.
 ### Prerequisites
 
 You will need the following technologies in order to run the system:
-* Node (v10.15+) - [Install](https://nodejs.org/en/)
-* Yarn (v1.13+) - [Install](https://nodejs.org/en/)
 * Java 1.8 - [Install](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ### Installing
@@ -70,10 +68,18 @@ You can now use the system by going to your web browser and visiting: http://loc
 <a class="anchor" id="runningtests"></a>
 ## Running Tests
 
-To run the **client-side** tests, visit the `/src/main/app` folder and run the following command:
+### Client Side Tests
+
+You will need to have the following technologies installed in order to run the tests:
+* Node (v10.15+) -  [Install](https://nodejs.org/en/)
+* Yarn (v1.13+) -  [Install](https://nodejs.org/en/)
+
+Once installed, visit the `/src/main/app` folder and run the following command:
 ```bash
 yarn test --coverage
 ```
+
+### Server Side Tests
 
 To run the **server-side** tests, simply run the following command at the root of the project's directory:
 
