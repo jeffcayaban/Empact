@@ -63,7 +63,7 @@ Once you have built the project, you can now run the system by running the follo
 java -jar target/Empact-0.0.1-SNAPSHOT.jar
 ```
 
-You can now use the system by going to your web browser and visiting: http://localhost:5000
+To view the website, go to http://localhost:5000
 
 <a class="anchor" id="runningtests"></a>
 ## Running Tests
