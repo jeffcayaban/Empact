@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClosedPetitionActions should render successfully 1`] = `
+<div>
+  <div>
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="petition-report-tooltip"
+          placement="right"
+        >
+          Generate a report of the petition and its arguments.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "marginRight": "5px",
+          }
+        }
+      >
+        View Report
+      </Button>
+    </OverlayTrigger>
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-petition-tooltip"
+          placement="right"
+        >
+          Permanently delete this petition.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </div>
+  <PetitionReport
+    handleShowPetitionReport={[Function]}
+    showReport={false}
+  />
+</div>
+`;
+
+exports[`ClosedPetitionActions should successfully call handleDelete 1`] = `
+<div>
+  <div>
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="petition-report-tooltip"
+          placement="right"
+        >
+          Generate a report of the petition and its arguments.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
+        disabled={false}
+        onClick={[Function]}
+        style={
+          Object {
+            "marginRight": "5px",
+          }
+        }
+      >
+        View Report
+      </Button>
+    </OverlayTrigger>
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-petition-tooltip"
+          placement="right"
+        >
+          Permanently delete this petition.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </div>
+  <PetitionReport
+    handleShowPetitionReport={[Function]}
+    showReport={false}
+  />
+</div>
+`;

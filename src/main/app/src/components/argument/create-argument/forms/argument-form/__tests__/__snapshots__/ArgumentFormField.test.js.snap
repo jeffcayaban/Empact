@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentFormField should render successfully 1`] = `
+<FormGroup
+  bsClass="form-group"
+  controlId="testId"
+  style={
+    Object {
+      "paddingBottom": "10px",
+    }
+  }
+>
+  <ControlLabel
+    bsClass="control-label"
+    srOnly={false}
+  >
+    testLabel
+  </ControlLabel>
+  <FormControl
+    bsClass="form-control"
+    componentClass="input"
+    maxLength={90}
+    value="testValue"
+  />
+  <FormControlFeedback
+    bsClass="form-control-feedback"
+    bsRole="feedback"
+  />
+  <div
+    className="argFormFieldCharCount"
+  >
+    <div
+      className="titleLengthCounter"
+    >
+      <p>
+        9
+        /
+        90
+      </p>
+    </div>
+  </div>
+</FormGroup>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Account Help
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <ListGroup
+            bsClass="list-group"
+          >
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Your Profile
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Creating an account
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Deleting your account
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Logging in
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Logging out
+            </ListGroupItem>
+          </ListGroup>
+          <BackButton
+            link="/help"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpertOpinion should render successfully 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <ArgumentFormField
+    id="expert"
+    label="Who would you like to reference to?"
+    maxLength={90}
+    onChange={[Function]}
+    placeholder="Expert"
+    required={true}
+    type="text"
+    value="testExpert"
+  />
+  <ArgumentFormField
+    id="expertDomain"
+    label="What does this person expertise on?"
+    maxLength={6000}
+    onChange={[Function]}
+    placeholder="Area of expertise"
+    required={true}
+    type="text"
+    value="testDomain"
+  />
+  <ArgumentFormField
+    className="petitionTextAreaField"
+    componentClass="textarea"
+    id="expertAssertion"
+    label="What does the expert claim?"
+    maxLength={6000}
+    onChange={[Function]}
+    placeholder="What does the expert assert?"
+    required={true}
+    value="testAssertion"
+  />
+  <ArgumentFormBase
+    handleAddSource={[Function]}
+    handleChangeAnonymity={[Function]}
+    handleChangeSource={[Function]}
+    handleRemoveSource={[Function]}
+    isAnonymous={false}
+    sources={Array []}
+  />
+</form>
+`;

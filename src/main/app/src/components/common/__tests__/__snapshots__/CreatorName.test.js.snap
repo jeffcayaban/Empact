@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatorName should render successfully 1`] = `
+<span>
+  <Link
+    replace={false}
+    to="/user/testUsername"
+  >
+    testFirstName testLastName
+  </Link>
+</span>
+`;
+
+exports[`CreatorName should render successfully with Anonymous 1`] = `
+<span>
+  Anonymous
+</span>
+`;

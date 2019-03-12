@@ -1,0 +1,747 @@
+/* For Admin Pages */
+
+.manageContentPage {
+    padding: 10px 5% 30px;
+}
+
+.manageContentActionPanels {
+    padding-top: 50px;
+}
+
+.manageContentBtn {
+    height: 60px;
+    width: 100%;
+}
+
+#actionCenterHeading {
+    margin-bottom: 0;
+}
+
+#controlPanelHr {
+    margin-top: 5px;
+}
+
+.contentActionBtn {
+    padding-top: 20px;
+}
+
+/* For User Profile Pages */
+
+#circleImage {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #FFFF;
+    line-height: 88px;
+    text-align: center;
+    background-color: #b6b6b6
+}
+
+.userContentTableFooter {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.userDetailsContainer {
+    padding-top: 10px;
+}
+
+.userContentContainer {
+    padding-top: 30px;
+}
+
+/* For Explore Petitions Page */
+
+#petitionEntryTitle {
+    font-weight: bold;
+    color: #333;
+    font-size: 17px;
+}
+
+.creationDetailsStyle {
+    font-size: 13px;
+    margin-top: 5px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.creatorNameStyle {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+#petitionsMainSection {
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* For Petition Content Section of the Petition Page */
+
+.closingDateLabel {
+    display: flex;
+    flex-direction: row;
+}
+
+/* For Argument and Petition Pages */
+
+.contentIdNumber {
+    display: flex;
+    align-items: center;
+}
+
+/* For Petition Page */
+
+.petitionTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createArgumentOptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alertContainer {
+    padding: 30px 5%;
+}
+
+#createArgumentInvite {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* For Argument Page */
+
+.argumentHeader {
+    margin-right: 10px;
+}
+
+.argumentTitle {
+    margin-top: 0;
+}
+
+.argumentHr {
+    margin-bottom: 6px;
+}
+
+.argumentCreationDetails {
+    font-size: 13px;
+}
+
+.argumentPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* For Create Petition */
+
+#createPetitionMainBody {
+    padding-top: 10px;
+}
+
+/* For Alerts */
+
+.alertTextAndBtnPadding {
+    padding-top: 10px;
+}
+
+/* For Login Page */
+
+.loginFieldName {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#registerBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#loginPanelContainer {
+    max-width: 500px;
+}
+
+#loginPanel {
+    padding: 20px;
+}
+
+/* For Register Page */
+
+#usernameFieldValidation {
+    display: flex;
+    flex-direction: row;
+}
+
+#usernameFieldError {
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* For Petition Form */
+
+.petitionTextAreaField {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+.nonEmptyFieldWarning {
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.nonEmptyFieldWarningContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleLengthCounter {
+    resize-mode: contain;
+    padding-top: 5px;
+}
+
+.datePickerContainer {
+    padding-left: 0;
+}
+
+.cancelButtonContainer {
+    padding-right: 10px;
+}
+
+/* For Table Footer */
+
+.tableFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tablePageNumber {
+    padding-top: 5px;
+}
+
+.previousPageBtnText {
+    padding-left: 7px;
+}
+
+.nextPageBtnText {
+    padding-right: 7px;
+}
+
+/* For Share Content */
+
+.copyLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.shareGlyph {
+    padding-right: 3px;
+}
+
+.copiedConfirmationText {
+    padding-top: 10px;
+}
+
+/* For ArgumentsTable */
+
+.argumentsTableFooter {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.argumentsTableHeader {
+    padding-left: 10px;
+}
+
+.argumentsTable > thead > tr > th{
+    border-right: 1px solid #dddddd;
+    border-bottom: 0;
+}
+
+.argumentsTable > tbody > tr > td{
+    border-right: 1px solid #dddddd;
+}
+
+.argumentsTable > thead > tr > th:last-of-type {
+    border-right: 0;
+}
+
+.argumentsTable > tbody > tr > td:last-of-type {
+    border-right: 0;
+}
+
+.argumentsPanelBody {
+    padding: 0;
+}
+
+.argumentsPanelBody > .table {
+    margin-bottom: 0;
+}
+
+
+.argumentPanelRow {
+    padding: 12px;
+    font-weight: normal !important;
+}
+
+
+/* For ArgumentEntry */
+
+.argumentEntryTitle {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.argumentEntryHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.argumentEntryType {
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.argumentEntryFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 18px;
+}
+
+/* Create Argument Invite */
+
+.closeGlyphicon {
+    padding-right: 3px;
+}
+
+.createArgInviteOptions {
+    padding-top: 5px;
+}
+
+/* For ArgCounts */
+
+.argCounts {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.argCountIcon {
+    margin-top: 3px;
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+.argCountIconContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* For TreeNetwork */
+
+.treeNetwork {
+    height: 100%;
+    width: 100%;
+}
+
+/* For Argument Forms */
+
+.argFormSubmitBtnContainer {
+    padding-top: 10px;
+}
+
+.argSources {
+    padding-top: 10px;
+}
+
+.argFormFieldCharCount {
+    float: right;
+}
+
+/* For Critical Questions */
+
+.argumentAssumption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userOpinionBtns {
+    padding-left: 10px;
+}
+
+/* For Expert Opinion argument content */
+
+.expertAssertionContent {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align: center;
+}
+
+.expertOpinionSummary {
+    font-size: 15px;
+}
+
+/* For Popular Opinion argument content */
+
+.argumentExplanation {
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.popularOpinionSummary {
+    font-size: 15px;
+}
+
+/* For ArgumentVisualisation */
+
+.argumentVisualisationKey {
+    padding-bottom: 10px;
+}
+
+.argumentVisualisationBtns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+@media (max-width: 767px) and (min-width: 0){
+    .modal-dialog {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .modal-content {
+        height: auto;
+        min-height: 100%;
+        border: 0 none;
+        border-radius: 0;
+    }
+}
+
+.modalContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.modalBody {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+/* For Edit Argument */
+
+.editArgContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.editArgFormContainer {
+    padding-top: 30px;
+}
+
+/* For Settings Page */
+
+#settingsContainer {
+    padding-top: 30px;
+}
+
+/* Homepage Banner */
+
+#homeHeaderContainer {
+    margin-bottom: 10px;
+}
+
+#homeExploreBtn {
+    margin-top: 15px;
+}
+
+/*  Homepage Top Content Tables */
+
+.topContentContainer {
+    padding-top: 15px;
+}
+
+/* For Homepage */
+
+@media screen and (max-width : 768px) and (min-width: 0) {
+    #headline-text {
+        font-size: 32px;
+        font-family: 'Patua One', sans-serif !important;
+    }
+
+    #content-table-title {
+        font-size: 18px;
+    }
+
+    #sub-headline-text {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #headline-text {
+        font-size: 42px;
+        font-family: 'Patua One', sans-serif !important;
+    }
+
+    #content-table-title {
+        font-size: 20px;
+    }
+
+    #sub-headline-text {
+        font-size: 21px;
+    }
+}
+
+/* For Search */
+
+.showClosedCheckbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+/* Header */
+
+#header{
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(237,237,237,1);
+    -moz-box-shadow: 0 1px 1px 0 rgba(237,237,237,1);
+    box-shadow: 0 1px 1px 0 rgba(237,237,237,1);
+}
+
+.navbar-default .navbar-brand {
+    color: #4e4e4e !important;
+    font-size: 20.5px;
+    font-family: 'Patua One', sans-serif !important;
+}
+
+/* Search */
+
+#searchBtn {
+    height: 46px;
+    width: 46px;
+    padding: 0 !important;
+}
+
+/* For App.js */
+
+#mainContainer {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+#deleteAccountBtnContainer {
+    padding-top: 10px;
+}
+
+/* For PetitionClosingTime */
+
+.activeClosingTime {
+    padding-left: 2px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+.petitionTimeRemaining{
+    display: inline-block;
+}
+
+.closedPetitionTime {
+    padding-left: 1px;
+    display: inline-block;
+    flex-direction: row;
+    font-style: italic;
+}
+
+/* Common Styles */
+
+.spaceBetweenElements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.helpHr {
+    margin: 10px 0 20px 0 !important;
+}
+
+.spaceBetweenElementsTwo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.noSidePadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.titleContentPadding {
+    padding-top: 30px;
+}
+
+.secondaryPageContainerStyle {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+}
+
+.buttonContainer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.divNoPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.loaderContainerStyle {
+    padding: 60px 5% 30px;
+}
+
+.centerStyle {
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.sideMarginStyle {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.linkButton {
+    color: #337ab9;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.linkButton:hover,
+.linkButton:focus {
+    text-decoration: underline;
+}
+
+/* ------ For DatePicker ------- */
+
+.react-datepicker {
+    font-size: 0.99em;
+}
+.react-datepicker__header {
+    padding-top: 0.79em;
+}
+.react-datepicker__month {
+    margin: 0.39em 0.9em;
+}
+.react-datepicker__day-name, .react-datepicker__day {
+    width: 1.89em;
+    line-height: 1.89em;
+    margin: 0.165em;
+}
+.react-datepicker__current-month {
+    font-size: 0.9em;
+}
+.react-datepicker__navigation {
+    top: 0.9em;
+    line-height: 1.69em;
+    border: 0.449em solid transparent;
+}
+.react-datepicker__navigation--previous {
+    border-right-color: #cccccc;
+    left: 0.9em;
+}
+.react-datepicker__navigation--next {
+    border-left-color: #cccccc;
+    right: 0.9em;
+}
+
+.noBottomMarginPanel {
+    margin-bottom: 0 !important;
+}
+
+/* ------ For SweetAlert2 ------- */
+
+/* Note: Correct the font size to normal */
+.swal2-popup {
+    font-size: 1.61rem !important;
+}
+
+/* For ArgumentHorizontalList */
+
+.argumentListEntryId {
+    font-size: 14px;
+    max-width: 180px;
+    word-break: break-word;
+    white-space: normal;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.argumentListEntryTitle {
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 180px;
+    word-break: break-word;
+    white-space: normal;
+    text-align: center;
+}
+
+.menu-item {
+    max-width: 230px;
+    padding: 0 40px;
+    margin: 5px 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.scroll-menu-arrow {
+    padding: 30px 15px 30px 15px;
+    cursor: pointer;
+}

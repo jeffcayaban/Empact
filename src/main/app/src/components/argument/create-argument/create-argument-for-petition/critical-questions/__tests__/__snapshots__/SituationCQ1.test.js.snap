@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SituationCQ1 should render correctly 1`] = `
+<Uncontrolled(Panel)
+  expanded={false}
+  onToggle={[Function]}
+>
+  <PanelHeading
+    bsClass="panel"
+    className="argumentAssumption"
+    componentClass="div"
+  >
+    <div>
+      <div>
+        1. Can you provide a supporting argument as to why you think the 
+        <button
+          className="linkButton"
+          onClick={[Function]}
+          type="button"
+        >
+          situation
+        </button>
+         is true?
+      </div>
+      <SituationPreviewModal
+        closeCallbackFn={[Function]}
+        container={
+          SituationCQ1 {
+            "context": Object {},
+            "props": Object {
+              "isSupporting": true,
+              "petition": Object {
+                "agreesWithCQ": true,
+                "argumentType": "PopularOpinion",
+                "createdBy": Object {
+                  "authorities": Array [
+                    "ROLE_ADMIN",
+                  ],
+                  "firstName": "Admin",
+                  "id": 1,
+                  "lastName": "Account",
+                  "username": "admin",
+                },
+                "creationDateTime": "2019-02-14T13:04:38Z",
+                "criticalQuestionId": "CQ2",
+                "explanation": "TestExplanation",
+                "id": 1,
+                "isAnonymous": false,
+                "isSupporting": true,
+                "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+                "parentArgumentId": null,
+                "rootPetitionId": 1,
+                "sources": Array [],
+              },
+              "petitionId": 1,
+            },
+            "refs": Object {},
+            "setState": [Function],
+            "situationBtnCallbackFn": [Function],
+            "state": Object {
+              "selectedArgScheme": "",
+              "showOptions": false,
+              "showSituation": false,
+            },
+            "updater": Updater {
+              "_callbacks": Array [],
+              "_renderer": ReactShallowRenderer {
+                "_context": Object {},
+                "_currentlyRenderingComponent": null,
+                "_didScheduleRenderPhaseUpdate": false,
+                "_dispatcher": Object {
+                  "readContext": [Function],
+                  "useCallback": [Function],
+                  "useContext": [Function],
+                  "useDebugValue": [Function],
+                  "useEffect": [Function],
+                  "useImperativeHandle": [Function],
+                  "useLayoutEffect": [Function],
+                  "useMemo": [Function],
+                  "useReducer": [Function],
+                  "useRef": [Function],
+                  "useState": [Function],
+                },
+                "_element": <SituationCQ1
+                  isSupporting={true}
+                  petition={
+                    Object {
+                      "agreesWithCQ": true,
+                      "argumentType": "PopularOpinion",
+                      "createdBy": Object {
+                        "authorities": Array [
+                          "ROLE_ADMIN",
+                        ],
+                        "firstName": "Admin",
+                        "id": 1,
+                        "lastName": "Account",
+                        "username": "admin",
+                      },
+                      "creationDateTime": "2019-02-14T13:04:38Z",
+                      "criticalQuestionId": "CQ2",
+                      "explanation": "TestExplanation",
+                      "id": 1,
+                      "isAnonymous": false,
+                      "isSupporting": true,
+                      "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+                      "parentArgumentId": null,
+                      "rootPetitionId": 1,
+                      "sources": Array [],
+                    }
+                  }
+                  petitionId={1}
+                />,
+                "_firstWorkInProgressHook": null,
+                "_forcedUpdate": false,
+                "_instance": [Circular],
+                "_isReRender": false,
+                "_newState": null,
+                "_numberOfReRenders": 0,
+                "_previousComponentIdentity": null,
+                "_renderPhaseUpdates": null,
+                "_rendered": <Uncontrolled(Panel)
+                  expanded={false}
+                  onToggle={[Function]}
+                >
+                  <PanelHeading
+                    bsClass="panel"
+                    className="argumentAssumption"
+                    componentClass="div"
+                  >
+                    <div>
+                      <div>
+                        1. Can you provide a supporting argument as to why you think the 
+                        <button
+                          className="linkButton"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          situation
+                        </button>
+                         is true?
+                      </div>
+                      <SituationPreviewModal
+                        closeCallbackFn={[Function]}
+                        container={[Circular]}
+                        showSituation={false}
+                      />
+                    </div>
+                    <UserOpinionBtn
+                      showArgTemplates={[Function]}
+                      showOption={false}
+                    />
+                  </PanelHeading>
+                  <PanelCollapse
+                    bsClass="panel"
+                  >
+                    <PanelBody
+                      bsClass="panel"
+                      collapsible={false}
+                    >
+                      <CreateArgumentOptions
+                        handleSelect={[Function]}
+                      />
+                    </PanelBody>
+                  </PanelCollapse>
+                </Uncontrolled(Panel)>,
+                "_rendering": false,
+                "_updater": [Circular],
+                "_workInProgressHook": null,
+              },
+            },
+            Symbol(enzyme.__setState__): [Function],
+          }
+        }
+        showSituation={false}
+      />
+    </div>
+    <UserOpinionBtn
+      showArgTemplates={[Function]}
+      showOption={false}
+    />
+  </PanelHeading>
+  <PanelCollapse
+    bsClass="panel"
+  >
+    <PanelBody
+      bsClass="panel"
+      collapsible={false}
+    >
+      <CreateArgumentOptions
+        handleSelect={[Function]}
+      />
+    </PanelBody>
+  </PanelCollapse>
+</Uncontrolled(Panel)>
+`;

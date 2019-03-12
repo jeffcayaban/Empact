@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterFormField should render successfully 1`] = `
+<FormGroup
+  bsClass="form-group"
+  controlId="testId"
+>
+  <ControlLabel
+    bsClass="control-label"
+    srOnly={false}
+  >
+    testName
+  </ControlLabel>
+  <FormControl
+    bsClass="form-control"
+    componentClass="input"
+    maxLength={100}
+    minLength={10}
+    onChange={[MockFunction]}
+    placeholder="testPlaceholder"
+    required={true}
+    type="text"
+  />
+</FormGroup>
+`;

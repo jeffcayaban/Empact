@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoArgCreationOnClosedPetitionAlert should render successfully 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closeLabel="Close alert"
+>
+  There are no arguments here! Click 
+  <Link
+    replace={false}
+    to="/petitions"
+  >
+    here
+  </Link>
+   to explore some petitions!
+</Alert>
+`;

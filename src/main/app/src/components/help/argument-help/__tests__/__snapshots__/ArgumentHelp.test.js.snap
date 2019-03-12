@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Argument Help
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <ListGroup
+            bsClass="list-group"
+          >
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Viewing Arguments
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Creating an Argument
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Editing an Argument
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Deleting an Argument
+            </ListGroupItem>
+          </ListGroup>
+          <BackButton
+            link="/help"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

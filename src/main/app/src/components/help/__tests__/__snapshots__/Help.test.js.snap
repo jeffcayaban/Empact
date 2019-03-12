@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Help should render successfully 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Help
+    </h2>
+    <p>
+      What do you need help with?
+    </p>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <Grid
+      bsClass="container"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={4}
+          md={4}
+        >
+          <div
+            className="centerStyle"
+            style={
+              Object {
+                "paddingTop": "15px",
+              }
+            }
+          >
+            <Route
+              render={[Function]}
+            />
+          </div>
+        </Col>
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={4}
+          md={4}
+        >
+          <div
+            className="centerStyle"
+            style={
+              Object {
+                "paddingTop": "15px",
+              }
+            }
+          >
+            <Route
+              render={[Function]}
+            />
+          </div>
+        </Col>
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={4}
+          md={4}
+        >
+          <div
+            className="centerStyle"
+            style={
+              Object {
+                "paddingTop": "15px",
+              }
+            }
+          >
+            <Route
+              render={[Function]}
+            />
+          </div>
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

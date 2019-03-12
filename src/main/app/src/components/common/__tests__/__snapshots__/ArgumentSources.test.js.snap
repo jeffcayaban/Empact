@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentSources should render successfully given the argument has no sources 1`] = `""`;
+
+exports[`ArgumentSources should render successfully given the argument has sources 1`] = `
+<ListGroupItem
+  bsClass="list-group-item"
+  listItem={false}
+>
+  <p>
+    <strong>
+      Sources:
+    </strong>
+  </p>
+  <ul>
+    <li
+      key="0"
+    >
+      <a
+        href="testSource"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Link 1
+      </a>
+    </li>
+  </ul>
+</ListGroupItem>
+`;

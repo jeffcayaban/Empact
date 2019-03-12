@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateArgumentInvite should render successfully given the user is not the content creator 1`] = `
+<div>
+  <div
+    align="right"
+  >
+    <button
+      className="linkButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+      type="button"
+    >
+      <Glyphicon
+        bsClass="glyphicon"
+        className="closeGlyphicon"
+        glyph="remove"
+      />
+    </button>
+  </div>
+  <div
+    className="createArgumentOptions"
+    style={
+      Object {
+        "paddingBottom": "20px",
+      }
+    }
+  >
+    <h4
+      align="center"
+    >
+      Do you agree or disagree with this testcontenttype?
+    </h4>
+    <ButtonGroup
+      block={false}
+      bsClass="btn-group"
+      className="createArgInviteOptions"
+      justified={false}
+      vertical={false}
+    >
+      <Route
+        render={[Function]}
+      />
+      <CreateArgumentDisagreeBtn
+        closeHandler={[MockFunction]}
+        contentId="testId"
+        contentType="testContentType"
+        isContentCreator={false}
+      />
+    </ButtonGroup>
+  </div>
+</div>
+`;
+
+exports[`CreateArgumentInvite should render successfully given the user is the content creator 1`] = `
+<div>
+  <div
+    align="right"
+  >
+    <button
+      className="linkButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+      type="button"
+    >
+      <Glyphicon
+        bsClass="glyphicon"
+        className="closeGlyphicon"
+        glyph="remove"
+      />
+    </button>
+  </div>
+  <div
+    className="createArgumentOptions"
+    style={
+      Object {
+        "paddingBottom": "20px",
+      }
+    }
+  >
+    <h4
+      align="center"
+    >
+      Would you like to provide an argument to further support your view?
+    </h4>
+    <ButtonGroup
+      block={false}
+      bsClass="btn-group"
+      className="createArgInviteOptions"
+      justified={false}
+      vertical={false}
+    >
+      <Route
+        render={[Function]}
+      />
+      <CreateArgumentDisagreeBtn
+        closeHandler={[MockFunction]}
+        contentId="testId"
+        contentType="testContentType"
+        isContentCreator={true}
+      />
+    </ButtonGroup>
+  </div>
+</div>
+`;

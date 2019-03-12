@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionActionPanel should render successfully given the petition is closed 1`] = `
+<div>
+  <DropdownButton
+    id="petition-actions"
+    pullRight={true}
+    title="Actions"
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-petition-tooltip"
+          placement="right"
+        >
+          Permanently delete this petition.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <MenuItem
+        bsClass="dropdown"
+        disabled={false}
+        divider={false}
+        header={false}
+        onClick={[Function]}
+      >
+        Delete
+      </MenuItem>
+    </OverlayTrigger>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={true}
+      header={false}
+    />
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={false}
+      header={false}
+      onClick={[Function]}
+    >
+      Close
+    </MenuItem>
+  </DropdownButton>
+</div>
+`;
+
+exports[`PetitionActionPanel should render successfully given the petition is not closed 1`] = `
+<div>
+  <DropdownButton
+    id="petition-actions"
+    pullRight={true}
+    title="Actions"
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-petition-tooltip"
+          placement="right"
+        >
+          Permanently delete this petition.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <MenuItem
+        bsClass="dropdown"
+        disabled={false}
+        divider={false}
+        header={false}
+        onClick={[Function]}
+      >
+        Delete
+      </MenuItem>
+    </OverlayTrigger>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={true}
+      header={false}
+    />
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={false}
+      header={false}
+      onClick={[Function]}
+    >
+      Close
+    </MenuItem>
+  </DropdownButton>
+</div>
+`;

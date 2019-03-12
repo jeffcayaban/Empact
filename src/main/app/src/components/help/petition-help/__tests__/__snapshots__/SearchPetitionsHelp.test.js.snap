@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPetitionsHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Searching Petitions
+    </h2>
+    <p>
+      Understand how petitions can be searched.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to search for petitions
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <p>
+              1. Go to the search page by clicking on the "
+              <Link
+                replace={false}
+                to="/search"
+              >
+                Search
+              </Link>
+              " link on the top navigation bar.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Search Link"
+                src="search-petition-link.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              2. Type in the words you want to search and then click on the "Search" button.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Search Form"
+                src="search-form.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "40%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              3. Any petitions that matches your query will be displayed to you.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Search Results"
+                src="search-results.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "50%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <BackButton
+            link="/help/petition"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

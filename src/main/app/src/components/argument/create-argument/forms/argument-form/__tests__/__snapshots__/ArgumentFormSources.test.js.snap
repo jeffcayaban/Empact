@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentFormSources should render successfully 1`] = `
+<FormGroup
+  bsClass="form-group"
+  controlId="source-0"
+  key="0"
+>
+  <ControlLabel
+    bsClass="control-label"
+    srOnly={false}
+  >
+    Source 1
+  </ControlLabel>
+  <FormControl
+    bsClass="form-control"
+    componentClass="input"
+    onChange={[Function]}
+    placeholder="Enter your source"
+    required={true}
+    type="text"
+    value="testSource1"
+  />
+  <Alert
+    bsClass="alert"
+    bsStyle="warning"
+    closeLabel="Close alert"
+    style={
+      Object {
+        "marginTop": "10px",
+      }
+    }
+  >
+    Source 1 should start with either https:// or http://
+  </Alert>
+</FormGroup>
+`;

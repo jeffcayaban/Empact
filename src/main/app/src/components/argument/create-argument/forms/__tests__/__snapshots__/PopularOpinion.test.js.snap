@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopularOpinion should render successfully 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <ArgumentFormField
+    className="petitionTextAreaField"
+    componentClass="textarea"
+    id="formControlsTextarea"
+    label="Enter your explanation in the box below."
+    maxLength={6000}
+    onChange={[Function]}
+    placeholder="Your explanation"
+    required={true}
+  />
+  <ArgumentFormBase
+    handleAddSource={[Function]}
+    handleChangeAnonymity={[Function]}
+    handleChangeSource={[Function]}
+    handleRemoveSource={[Function]}
+  />
+</form>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotPermittedAlert should render successfully given a showFollowUp context 1`] = `
+<div
+  className="alertContainer"
+>
+  <Alert
+    bsClass="alert"
+    bsStyle="danger"
+    closeLabel="Close alert"
+  >
+    <h4>
+      You are not permitted to view this page.
+    </h4>
+    <p>
+      Click on the button below to explore the petitions on the website!
+    </p>
+    <div
+      style={
+        Object {
+          "marginTop": "15px",
+        }
+      }
+    >
+      <Route
+        render={[Function]}
+      />
+    </div>
+  </Alert>
+</div>
+`;

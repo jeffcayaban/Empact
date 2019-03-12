@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render successfully 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Login
+    </h2>
+  </div>
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+    style={
+      Object {
+        "paddingTop": "30px",
+      }
+    }
+  >
+    <Col
+      bsClass="col"
+      componentClass="div"
+      lg={12}
+      md={12}
+    >
+      <div
+        id="loginPanelContainer"
+      >
+        <Uncontrolled(Panel)>
+          <div
+            id="loginPanel"
+          >
+            <Form
+              bsClass="form"
+              componentClass="form"
+              horizontal={true}
+              inline={false}
+              onSubmit={[Function]}
+            >
+              <LoginFormField
+                fieldValue=""
+                name="Username"
+                onChange={[Function]}
+                type="text"
+              />
+              <LoginFormField
+                fieldValue=""
+                name="Password"
+                onChange={[Function]}
+                type="password"
+              />
+              <FormGroup
+                bsClass="form-group"
+                style={
+                  Object {
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                <Col
+                  bsClass="col"
+                  componentClass="div"
+                  sm={10}
+                  smOffset={2}
+                >
+                  <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="primary"
+                    disabled={false}
+                    type="submit"
+                  >
+                    Login
+                  </Button>
+                </Col>
+              </FormGroup>
+            </Form>
+            <hr
+              style={
+                Object {
+                  "marginTop": "25px",
+                }
+              }
+            />
+            <p
+              align="center"
+            >
+              Don't have an account? Register yours now!
+            </p>
+            <div
+              id="registerBtnContainer"
+            >
+              <Route
+                render={[Function]}
+              />
+            </div>
+          </div>
+        </Uncontrolled(Panel)>
+      </div>
+    </Col>
+  </Grid>
+</div>
+`;

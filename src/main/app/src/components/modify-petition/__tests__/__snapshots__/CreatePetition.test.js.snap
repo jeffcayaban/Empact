@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePetition should redirect to the log in page 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/login",
+    }
+  }
+/>
+`;
+
+exports[`CreatePetition should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Create
+    </h2>
+    <p
+      align="center"
+    >
+      Lets create your petition!
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <PetitionForm
+            nCancel={[Function]}
+            onSubmit={[Function]}
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`CreatePetition should successfully call onCreate 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/login",
+    }
+  }
+/>
+`;

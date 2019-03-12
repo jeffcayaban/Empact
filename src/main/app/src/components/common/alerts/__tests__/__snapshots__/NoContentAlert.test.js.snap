@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoContentAlert should render successfully for argument 1`] = `
+<div
+  style={
+    Object {
+      "margin": "15px",
+    }
+  }
+>
+  <Alert
+    bsClass="alert"
+    bsStyle="warning"
+    closeLabel="Close alert"
+  >
+    There are no arguments here!
+  </Alert>
+</div>
+`;
+
+exports[`NoContentAlert should render successfully for petition 1`] = `
+<div
+  style={
+    Object {
+      "margin": "15px",
+    }
+  }
+>
+  <Alert
+    bsClass="alert"
+    bsStyle="warning"
+    closeLabel="Close alert"
+  >
+    There are no petitions here!
+  </Alert>
+</div>
+`;

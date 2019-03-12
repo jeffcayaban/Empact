@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AcceptedCQ should render correctly 1`] = `
+<Uncontrolled(Panel)
+  expanded={false}
+>
+  <PanelHeading
+    bsClass="panel"
+    className="argumentAssumption"
+    componentClass="div"
+  >
+    <div>
+      1. Can you provide a supporting argument to prove that the 
+      <button
+        className="linkButton"
+        onClick={[Function]}
+        type="button"
+      >
+        explanation
+      </button>
+       is generally accepted?
+    </div>
+    <UserOpinionBtn
+      showArgTemplates={[Function]}
+      showOption={false}
+    />
+  </PanelHeading>
+  <PanelCollapse
+    bsClass="panel"
+  >
+    <PanelBody
+      bsClass="panel"
+      collapsible={false}
+    >
+      <CreateArgumentOptions
+        handleSelect={[Function]}
+      />
+    </PanelBody>
+  </PanelCollapse>
+  <ExplanationPreviewModal
+    closeCallbackFn={[Function]}
+    container={
+      AcceptedCQ {
+        "context": Object {},
+        "explanationBtnCallbackFn": [Function],
+        "handleShowArgumentOptions": [Function],
+        "onOptionSelect": [Function],
+        "props": Object {
+          "argument": Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          },
+          "isSupporting": true,
+        },
+        "refs": Object {},
+        "setState": [Function],
+        "state": Object {
+          "selectedArgScheme": "",
+          "showExplanation": false,
+          "showOptions": false,
+        },
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_currentlyRenderingComponent": null,
+            "_didScheduleRenderPhaseUpdate": false,
+            "_dispatcher": Object {
+              "readContext": [Function],
+              "useCallback": [Function],
+              "useContext": [Function],
+              "useDebugValue": [Function],
+              "useEffect": [Function],
+              "useImperativeHandle": [Function],
+              "useLayoutEffect": [Function],
+              "useMemo": [Function],
+              "useReducer": [Function],
+              "useRef": [Function],
+              "useState": [Function],
+            },
+            "_element": <AcceptedCQ
+              argument={
+                Object {
+                  "agreesWithCQ": true,
+                  "argumentType": "ExpertOpinion",
+                  "createdBy": Object {
+                    "authorities": Array [
+                      "ROLE_ADMIN",
+                    ],
+                    "firstName": "testFirstName",
+                    "id": "testId",
+                    "lastName": "testLastName",
+                    "username": "testUsername",
+                  },
+                  "creationDateTime": 1551716401541,
+                  "criticalQuestionId": "CQ1",
+                  "expert": "testExpert",
+                  "expertAssertion": "testAssertion",
+                  "expertDomain": "testDomain",
+                  "id": "testId",
+                  "isAnonymous": false,
+                  "isSupporting": true,
+                  "lastUpdatedDateTime": 1551716402000,
+                  "parentArgumentId": "testParentArgumentId",
+                  "rootPetitionId": "testRootPetitionId",
+                  "sources": Array [],
+                  "subCriticalQuestionId": null,
+                }
+              }
+              isSupporting={true}
+            />,
+            "_firstWorkInProgressHook": null,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_isReRender": false,
+            "_newState": null,
+            "_numberOfReRenders": 0,
+            "_previousComponentIdentity": null,
+            "_renderPhaseUpdates": null,
+            "_rendered": <Uncontrolled(Panel)
+              expanded={false}
+            >
+              <PanelHeading
+                bsClass="panel"
+                className="argumentAssumption"
+                componentClass="div"
+              >
+                <div>
+                  1. Can you provide a supporting argument to prove that the 
+                  <button
+                    className="linkButton"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    explanation
+                  </button>
+                   is generally accepted?
+                </div>
+                <UserOpinionBtn
+                  showArgTemplates={[Function]}
+                  showOption={false}
+                />
+              </PanelHeading>
+              <PanelCollapse
+                bsClass="panel"
+              >
+                <PanelBody
+                  bsClass="panel"
+                  collapsible={false}
+                >
+                  <CreateArgumentOptions
+                    handleSelect={[Function]}
+                  />
+                </PanelBody>
+              </PanelCollapse>
+              <ExplanationPreviewModal
+                closeCallbackFn={[Function]}
+                container={[Circular]}
+                showExplanation={false}
+              />
+            </Uncontrolled(Panel)>,
+            "_rendering": false,
+            "_updater": [Circular],
+            "_workInProgressHook": null,
+          },
+        },
+        Symbol(enzyme.__setState__): [Function],
+      }
+    }
+    showExplanation={false}
+  />
+</Uncontrolled(Panel)>
+`;

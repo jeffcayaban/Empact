@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditArgument should display an unable to edit alert 1`] = `
+<UnableToEditAlert
+  contentType="Argument"
+/>
+`;
+
+exports[`EditArgument should redirect to the login page 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/login",
+    }
+  }
+/>
+`;
+
+exports[`EditArgument should successfully display the form for expert opinion 1`] = `
+<div
+  className="editArgContainer"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Edit Argument
+    </h2>
+  </div>
+  <div
+    className="editArgFormContainer"
+  >
+    <ExpertOpinion
+      agreesWithCQ={true}
+      argument={
+        Object {
+          "agreesWithCQ": true,
+          "argumentType": "ExpertOpinion",
+          "createdBy": Object {
+            "authorities": Array [
+              "ROLE_ADMIN",
+            ],
+            "firstName": "testFirstName",
+            "id": "testId",
+            "lastName": "testLastName",
+            "username": "testUsername",
+          },
+          "creationDateTime": 1551716401541,
+          "criticalQuestionId": "CQ1",
+          "expert": "testExpert",
+          "expertAssertion": "testAssertion",
+          "expertDomain": "testDomain",
+          "id": "testId",
+          "isAnonymous": false,
+          "isSupporting": true,
+          "lastUpdatedDateTime": 1551716402000,
+          "parentArgumentId": "testParentArgumentId",
+          "rootPetitionId": "testRootPetitionId",
+          "sources": Array [],
+          "subCriticalQuestionId": null,
+        }
+      }
+      argumentId="testParentArgumentId"
+      criticalQuestionId="CQ1"
+      isForEdit={true}
+      isSupporting={true}
+      petitionId="testRootPetitionId"
+    />
+  </div>
+</div>
+`;
+
+exports[`EditArgument should successfully display the form for popular opinion 1`] = `
+<div
+  className="editArgContainer"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Edit Argument
+    </h2>
+  </div>
+  <div
+    className="editArgFormContainer"
+  >
+    <PopularOpinion
+      agreesWithCQ={true}
+      argument={
+        Object {
+          "agreesWithCQ": true,
+          "argumentType": "PopularOpinion",
+          "createdBy": Object {
+            "authorities": Array [
+              "ROLE_ADMIN",
+            ],
+            "firstName": "Admin",
+            "id": 1,
+            "lastName": "Account",
+            "username": "admin",
+          },
+          "creationDateTime": "2019-02-14T13:04:38Z",
+          "criticalQuestionId": "CQ2",
+          "explanation": "TestExplanation",
+          "id": 1,
+          "isAnonymous": false,
+          "isSupporting": true,
+          "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+          "parentArgumentId": null,
+          "rootPetitionId": 1,
+          "sources": Array [],
+        }
+      }
+      argumentId={null}
+      criticalQuestionId="CQ2"
+      isForEdit={true}
+      isSupporting={true}
+      petitionId={1}
+    />
+  </div>
+</div>
+`;

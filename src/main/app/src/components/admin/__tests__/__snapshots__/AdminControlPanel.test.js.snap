@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminControlPanel should render an alert given the user is not logged in. 1`] = `<NotPermittedAlert />`;
+
+exports[`AdminControlPanel should render correctly given the logged in user is an admin 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Admin Control Panel
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <Grid
+      bsClass="container"
+      componentClass="div"
+      fluid={false}
+    >
+      <h4
+        id="actionCenterHeading"
+      >
+        Action Centre
+      </h4>
+      <hr
+        id="controlPanelHr"
+      />
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={4}
+          md={4}
+        >
+          <AdminControlPanelBtn
+            contentType="Petitions"
+          />
+        </Col>
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={4}
+          md={4}
+        >
+          <AdminControlPanelBtn
+            contentType="Arguments"
+          />
+        </Col>
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={4}
+          md={4}
+        >
+          <AdminControlPanelBtn
+            contentType="Users"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

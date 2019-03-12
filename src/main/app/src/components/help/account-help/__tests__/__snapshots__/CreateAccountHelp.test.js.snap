@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateAccountHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Creating an Account
+    </h2>
+    <p>
+      Understand how to create a new user account.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to create a new user account
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <p>
+              1. Go to the account registration page by clicking on the "
+              <Link
+                replace={false}
+                to="/register"
+              >
+                Register
+              </Link>
+              " link on the top navigation bar.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Register on the Navigation Bar"
+                src="nav-bar-registration.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "33%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              2. Enter the username you would wish to use for your new account. The system will check whether your chosen username is currently taken.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Form for checking username"
+                src="username-check.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "40%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              If the username is not taken, the system will allow you to continue with creating your new account otherwise an error is shown.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If the username is available
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Available username screen"
+                          src="username-available-dialog.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If the username is taken
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Taken username screen"
+                          src="username-taken-dialog.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+            <p>
+              3. Enter the details that are required for your new account. Once completed, click on the "Submit" button to create the account. If you want to change the username for your account then click on the "Change username" button.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Account registration form"
+                src="account-register-form.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "35%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              4. If the creation is successful then you will be shown a confirmation screen, otherwise an error screen will be displayed.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If successful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Successful Account Creation Screen"
+                          src="successful-account-register-dialog.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If unsuccessful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Unsuccessful Account Creation Screen"
+                          src="unsuccessful-account-register-dialog.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+          </div>
+          <BackButton
+            link="/help/account"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

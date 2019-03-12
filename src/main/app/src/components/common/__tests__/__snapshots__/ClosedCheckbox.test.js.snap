@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClosedCheckbox should render successfully 1`] = `
+<Checkbox
+  bsClass="checkbox"
+  disabled={false}
+  inline={false}
+  onChange={[MockFunction]}
+  title=""
+>
+  Closed
+</Checkbox>
+`;

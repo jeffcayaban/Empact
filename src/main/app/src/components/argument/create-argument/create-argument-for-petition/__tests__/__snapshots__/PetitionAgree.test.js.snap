@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionAgree should render a content retrieval alert 1`] = `
+<div
+  className="alertContainer"
+>
+  <ContentRetrievalAlert
+    contentType="Petition"
+  />
+</div>
+`;
+
+exports[`PetitionAgree should render a loader 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;
+
+exports[`PetitionAgree should successfully render the page given the petition is closed. 1`] = `<NoArgCreationOnClosedPetitionAlert />`;
+
+exports[`PetitionAgree should successfully render the page given the petition is open 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      You 
+      <strong>
+        agree
+      </strong>
+       with the petition
+    </h2>
+    <p
+      align="center"
+    >
+      Tell us your reasons for deciding this!
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingTop": "30px",
+      }
+    }
+  >
+    <SituationCQ1
+      isSupporting={true}
+      petitionId="testId"
+    />
+    <ActionCQ3
+      isSupporting={true}
+      petition={
+        Object {
+          "agreesWithCQ": true,
+          "argumentType": "PopularOpinion",
+          "createdBy": Object {
+            "authorities": Array [
+              "ROLE_ADMIN",
+            ],
+            "firstName": "Admin",
+            "id": 1,
+            "lastName": "Account",
+            "username": "admin",
+          },
+          "creationDateTime": "2019-02-14T13:04:38Z",
+          "criticalQuestionId": "CQ2",
+          "explanation": "TestExplanation",
+          "id": 1,
+          "isAnonymous": false,
+          "isSupporting": true,
+          "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+          "parentArgumentId": null,
+          "rootPetitionId": 1,
+          "sources": Array [],
+        }
+      }
+      petitionId="testId"
+    />
+  </div>
+  <Route
+    render={[Function]}
+  />
+</div>
+`;

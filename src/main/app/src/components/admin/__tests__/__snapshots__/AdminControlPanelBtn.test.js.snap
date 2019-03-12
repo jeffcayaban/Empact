@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminControlPanelBtn should render correctly 1`] = `
+<div
+  className="centerStyle"
+  style={
+    Object {
+      "paddingTop": "15px",
+    }
+  }
+>
+  <Route
+    render={[Function]}
+  />
+</div>
+`;

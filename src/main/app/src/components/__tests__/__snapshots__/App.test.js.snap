@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render successfully 1`] = `<Loader />`;
+
+exports[`App should successfully call handleLogin 1`] = `<Loader />`;

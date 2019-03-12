@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionReport should display a no arguments message 1`] = `
+<Modal
+  animation={true}
+  autoFocus={true}
+  backdrop={true}
+  bsClass="modal"
+  bsSize="large"
+  dialogComponentClass={[Function]}
+  enforceFocus={true}
+  keyboard={true}
+  manager={
+    ModalManager {
+      "add": [Function],
+      "containers": Array [],
+      "data": Array [],
+      "handleContainerOverflow": true,
+      "hideSiblingNodes": true,
+      "isTopModal": [Function],
+      "modals": Array [],
+      "remove": [Function],
+    }
+  }
+  onHide={[Function]}
+  renderBackdrop={[Function]}
+  restoreFocus={true}
+  show={true}
+>
+  <ModalHeader
+    bsClass="modal-header"
+    closeButton={false}
+    closeLabel="Close"
+  >
+    <ModalTitle
+      bsClass="modal-title"
+      componentClass="h4"
+    >
+      Petition Report
+    </ModalTitle>
+  </ModalHeader>
+  <ModalBody
+    bsClass="modal-body"
+    componentClass="div"
+  >
+    <div>
+      <div
+        className="centerStyle"
+      >
+        <h3
+          align="center"
+        >
+          No arguments has been made to this petition.
+        </h3>
+      </div>
+    </div>
+  </ModalBody>
+  <ModalFooter
+    bsClass="modal-footer"
+    componentClass="div"
+  >
+    <Button
+      active={false}
+      block={false}
+      bsClass="btn"
+      bsStyle="default"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      Close
+    </Button>
+  </ModalFooter>
+</Modal>
+`;
+
+exports[`PetitionReport should successfully render the page 1`] = `
+<Modal
+  animation={true}
+  autoFocus={true}
+  backdrop={true}
+  bsClass="modal"
+  bsSize="large"
+  dialogComponentClass={[Function]}
+  enforceFocus={true}
+  keyboard={true}
+  manager={
+    ModalManager {
+      "add": [Function],
+      "containers": Array [],
+      "data": Array [],
+      "handleContainerOverflow": true,
+      "hideSiblingNodes": true,
+      "isTopModal": [Function],
+      "modals": Array [],
+      "remove": [Function],
+    }
+  }
+  onHide={[Function]}
+  renderBackdrop={[Function]}
+  restoreFocus={true}
+  show={true}
+>
+  <ModalHeader
+    bsClass="modal-header"
+    closeButton={false}
+    closeLabel="Close"
+  >
+    <ModalTitle
+      bsClass="modal-title"
+      componentClass="h4"
+    >
+      Petition Report
+    </ModalTitle>
+  </ModalHeader>
+  <ModalBody
+    bsClass="modal-body"
+    componentClass="div"
+  >
+    <div>
+      <div
+        className="centerStyle"
+      >
+        <h3
+          align="center"
+        >
+          The majority has 
+           
+          <strong>
+            opposed
+          </strong>
+           
+          your petition
+        </h3>
+      </div>
+      <div
+        className="titleContentPadding"
+      >
+        <div>
+          <div>
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f00c",
+                    "M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z",
+                  ],
+                  "iconName": "check",
+                  "prefix": "fas",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "green",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            />
+            <span
+              style={
+                Object {
+                  "fontSize": "13pt",
+                  "margin": 0,
+                  "paddingLeft": "10px",
+                }
+              }
+            >
+              What is supported:
+            </span>
+          </div>
+          <hr
+            style={
+              Object {
+                "marginTop": "10px",
+              }
+            }
+          />
+          <div>
+            <p>
+              There has been 
+              1
+               arguments that 
+              supports
+               the 
+              <strong>
+                situation being true
+              </strong>
+              :
+            </p>
+            <div
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <ArgumentHorizontalList
+                userArguments={
+                  Array [
+                    Object {
+                      "agreesWithCQ": true,
+                      "argumentType": "ExpertOpinion",
+                      "createdBy": Object {
+                        "authorities": Array [
+                          "ROLE_ADMIN",
+                        ],
+                        "firstName": "testFirstName",
+                        "id": "testId",
+                        "lastName": "testLastName",
+                        "username": "testUsername",
+                      },
+                      "creationDateTime": 1551716401541,
+                      "criticalQuestionId": "CQ1",
+                      "expert": "testExpert",
+                      "expertAssertion": "testAssertion",
+                      "expertDomain": "testDomain",
+                      "id": "testId",
+                      "isAnonymous": false,
+                      "isSupporting": true,
+                      "lastUpdatedDateTime": 1551716402000,
+                      "parentArgumentId": "testParentArgumentId",
+                      "rootPetitionId": "testRootPetitionId",
+                      "sources": Array [],
+                      "subCriticalQuestionId": null,
+                    },
+                  ]
+                }
+              />
+            </div>
+          </div>
+          <div>
+            <p>
+              There has been 
+              1
+               arguments that 
+              supports
+               the
+              <strong>
+                 proposed action in achieving the goal
+              </strong>
+              :
+            </p>
+            <div
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <ArgumentHorizontalList
+                userArguments={
+                  Array [
+                    Object {
+                      "agreesWithCQ": true,
+                      "argumentType": "ExpertOpinion",
+                      "createdBy": Object {
+                        "authorities": Array [
+                          "ROLE_ADMIN",
+                        ],
+                        "firstName": "testFirstName",
+                        "id": "testId",
+                        "lastName": "testLastName",
+                        "username": "testUsername",
+                      },
+                      "creationDateTime": 1551716401541,
+                      "criticalQuestionId": "CQ1",
+                      "expert": "testExpert",
+                      "expertAssertion": "testAssertion",
+                      "expertDomain": "testDomain",
+                      "id": "testId",
+                      "isAnonymous": false,
+                      "isSupporting": true,
+                      "lastUpdatedDateTime": 1551716402000,
+                      "parentArgumentId": "testParentArgumentId",
+                      "rootPetitionId": "testRootPetitionId",
+                      "sources": Array [],
+                      "subCriticalQuestionId": null,
+                    },
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "paddingTop": "30px",
+            }
+          }
+        >
+          <div>
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    352,
+                    512,
+                    Array [],
+                    "f00d",
+                    "M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z",
+                  ],
+                  "iconName": "times",
+                  "prefix": "fas",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            />
+            <span
+              style={
+                Object {
+                  "fontSize": "13pt",
+                  "margin": 0,
+                  "paddingLeft": "10px",
+                }
+              }
+            >
+              What is opposed:
+            </span>
+          </div>
+          <hr
+            style={
+              Object {
+                "marginTop": "10px",
+              }
+            }
+          />
+          <div>
+            <p>
+              There has been 
+              1
+               arguments that 
+              does not support
+               the 
+              <strong>
+                situation being true
+              </strong>
+              :
+            </p>
+            <div
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <ArgumentHorizontalList
+                userArguments={
+                  Array [
+                    Object {
+                      "agreesWithCQ": true,
+                      "argumentType": "ExpertOpinion",
+                      "createdBy": Object {
+                        "authorities": Array [
+                          "ROLE_ADMIN",
+                        ],
+                        "firstName": "testFirstName",
+                        "id": "testId",
+                        "lastName": "testLastName",
+                        "username": "testUsername",
+                      },
+                      "creationDateTime": 1551716401541,
+                      "criticalQuestionId": "CQ1",
+                      "expert": "testExpert",
+                      "expertAssertion": "testAssertion",
+                      "expertDomain": "testDomain",
+                      "id": "testId",
+                      "isAnonymous": false,
+                      "isSupporting": true,
+                      "lastUpdatedDateTime": 1551716402000,
+                      "parentArgumentId": "testParentArgumentId",
+                      "rootPetitionId": "testRootPetitionId",
+                      "sources": Array [],
+                      "subCriticalQuestionId": null,
+                    },
+                  ]
+                }
+              />
+            </div>
+          </div>
+          <div>
+            <p>
+              There has been 
+              1
+               arguments that 
+              does not support
+               the
+              <strong>
+                 proposed action in achieving the goal
+              </strong>
+              :
+            </p>
+            <div
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <ArgumentHorizontalList
+                userArguments={
+                  Array [
+                    Object {
+                      "agreesWithCQ": true,
+                      "argumentType": "ExpertOpinion",
+                      "createdBy": Object {
+                        "authorities": Array [
+                          "ROLE_ADMIN",
+                        ],
+                        "firstName": "testFirstName",
+                        "id": "testId",
+                        "lastName": "testLastName",
+                        "username": "testUsername",
+                      },
+                      "creationDateTime": 1551716401541,
+                      "criticalQuestionId": "CQ1",
+                      "expert": "testExpert",
+                      "expertAssertion": "testAssertion",
+                      "expertDomain": "testDomain",
+                      "id": "testId",
+                      "isAnonymous": false,
+                      "isSupporting": true,
+                      "lastUpdatedDateTime": 1551716402000,
+                      "parentArgumentId": "testParentArgumentId",
+                      "rootPetitionId": "testRootPetitionId",
+                      "sources": Array [],
+                      "subCriticalQuestionId": null,
+                    },
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ModalBody>
+  <ModalFooter
+    bsClass="modal-footer"
+    componentClass="div"
+  >
+    <Button
+      active={false}
+      block={false}
+      bsClass="btn"
+      bsStyle="default"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      Close
+    </Button>
+  </ModalFooter>
+</Modal>
+`;

@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewPetitionsHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Viewing Petitions
+    </h2>
+    <p>
+      Understand how petitions are viewed.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              Viewing petitions on the home, search and explore pages
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <p>
+              You may see petitions on the homepage, search page or the explore page. The image below explains the different things you may see.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <img
+                alt="Petition Entry Diagram"
+                src="petition-entry.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "60%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingTop": "25px",
+              }
+            }
+          >
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              Viewing a petition on its page
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <p>
+              The image below explains the different things you may see when you are on a petition page.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <img
+                alt="Petition Page"
+                src="petition-page.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "70%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingTop": "20px",
+              }
+            }
+          >
+            <p>
+              As you scroll down the page, you will see a set of arguments and a button to access a graph showing the different supporting and opposing arguments that are made to it. Click 
+              <Link
+                replace={false}
+                to="/help/argument/view"
+              >
+                here
+              </Link>
+               to learn more about this section.
+            </p>
+          </div>
+          <BackButton
+            link="/help/petition"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

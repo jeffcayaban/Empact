@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaField should render successfully 1`] = `
+<div>
+  <FormGroup
+    bsClass="form-group"
+    controlId="testId"
+  >
+    <ControlLabel
+      bsClass="control-label"
+      srOnly={false}
+    >
+      testLabel
+    </ControlLabel>
+    <FormControl
+      bsClass="form-control"
+      className="petitionTextAreaField"
+      componentClass="textarea"
+      maxLength={50}
+    />
+    <FormControlFeedback
+      bsClass="form-control-feedback"
+      bsRole="feedback"
+    />
+    <div
+      className="nonEmptyFieldWarningContainer"
+    >
+      <div
+        className="nonEmptyFieldWarning"
+      />
+      <div
+        className="titleLengthCounter"
+      >
+        <p>
+          0
+          /
+          50
+        </p>
+      </div>
+    </div>
+  </FormGroup>
+</div>
+`;
+
+exports[`TextAreaField should render successfully 2`] = `
+<div>
+  <FormGroup
+    bsClass="form-group"
+    controlId="testId"
+    validationState="error"
+  >
+    <ControlLabel
+      bsClass="control-label"
+      srOnly={false}
+    >
+      testLabel
+    </ControlLabel>
+    <FormControl
+      bsClass="form-control"
+      className="petitionTextAreaField"
+      componentClass="textarea"
+      maxLength={50}
+    />
+    <FormControlFeedback
+      bsClass="form-control-feedback"
+      bsRole="feedback"
+    />
+    <div
+      className="nonEmptyFieldWarningContainer"
+    >
+      <div
+        className="nonEmptyFieldWarning"
+      >
+        <HelpBlock
+          bsClass="help-block"
+        >
+          This field cannot be empty.
+        </HelpBlock>
+      </div>
+      <div
+        className="titleLengthCounter"
+      >
+        <p>
+          0
+          /
+          50
+        </p>
+      </div>
+    </div>
+  </FormGroup>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateArgumentDisagreeBtn should render successfully given the user is not the content creator 1`] = `
+<Route
+  render={[Function]}
+/>
+`;
+
+exports[`CreateArgumentDisagreeBtn should render successfully given the user is the content creator 1`] = `
+<Button
+  active={false}
+  block={false}
+  bsClass="btn"
+  bsStyle="default"
+  disabled={false}
+  onClick={[Function]}
+>
+  No
+</Button>
+`;

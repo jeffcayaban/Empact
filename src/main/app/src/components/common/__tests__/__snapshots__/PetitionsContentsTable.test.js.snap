@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionsContentTable should render an alert given there exists no petitions 1`] = `
+<NoPetitionsAndExploreAlert
+  showFollowUp={true}
+/>
+`;
+
+exports[`PetitionsContentTable should render successfully given there exists petitions 1`] = `
+<div>
+  <Table
+    bordered={true}
+    bsClass="table"
+    condensed={false}
+    hover={true}
+    responsive={false}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(PetitionEntry)
+        key="0"
+        petition={
+          Object {
+            "action": "TestAction",
+            "closingDateTime": "2019-02-15T13:04:27Z",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:29Z",
+            "goal": "TestGoal",
+            "id": 1,
+            "isAnonymous": false,
+            "isWinning": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+            "situation": "TestSituation",
+            "title": "TestTitle",
+            "value": "TestValue",
+          }
+        }
+        showCreationDetails={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    style={
+      Object {
+        "paddingTop": "10px",
+      }
+    }
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={1}
+    />
+  </div>
+</div>
+`;

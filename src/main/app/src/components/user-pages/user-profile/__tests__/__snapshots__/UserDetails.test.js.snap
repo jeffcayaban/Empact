@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails should render correctly 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}
+>
+  <Col
+    bsClass="col"
+    componentClass="div"
+    md={12}
+    xs={12}
+  >
+    <div
+      className="centerStyle"
+    >
+      <Circle
+        text="t"
+      />
+      <div>
+        <h1
+          align="center"
+        >
+          testFirstName testLastName
+        </h1>
+        <h4
+          align="center"
+          style={
+            Object {
+              "color": "#7c7c7c",
+            }
+          }
+        >
+          @testUserName
+        </h4>
+      </div>
+    </div>
+  </Col>
+</Grid>
+`;

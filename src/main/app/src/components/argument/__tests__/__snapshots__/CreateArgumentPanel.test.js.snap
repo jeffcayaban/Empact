@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateArgumentPanel should render nothing given the petition is closed 1`] = `""`;
+
+exports[`CreateArgumentPanel should render successfully given the petition is not closed 1`] = `
+<Collapse
+  appear={false}
+  dimension="height"
+  getDimensionValue={[Function]}
+  in={true}
+  mountOnEnter={false}
+  timeout={300}
+  unmountOnExit={false}
+>
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+    style={
+      Object {
+        "paddingTop": "15px",
+      }
+    }
+  >
+    <Col
+      bsClass="col"
+      className="noSidePadding"
+      componentClass="div"
+      lg={12}
+      md={12}
+    >
+      <Well
+        bsClass="well"
+      >
+        <CreateArgumentInvite
+          closeHandler={[Function]}
+          contentId="testArgumentId"
+          contentType="Argument"
+          isContentCreator={true}
+        />
+      </Well>
+    </Col>
+  </Grid>
+</Collapse>
+`;

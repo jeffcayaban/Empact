@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateArgumentOptions should render successfully 1`] = `
+<div
+  className="centerStyle"
+>
+  <p
+    align="center"
+  >
+    How would you like to base your argument off?
+  </p>
+  <DropdownButton
+    id="create-argument-options"
+    onSelect={[Function]}
+    title="Choose your method"
+  >
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={false}
+      eventKey={0}
+      header={false}
+      key="0"
+    >
+      By Expert Opinion
+    </MenuItem>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={false}
+      eventKey={1}
+      header={false}
+      key="1"
+    >
+      By Popular Opinion
+    </MenuItem>
+  </DropdownButton>
+</div>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditPetition should display a dialog to confirm the edit 1`] = `
+<EditArgument
+  contentType="Petition"
+/>
+`;
+
+exports[`EditPetition should display a no new changes error 1`] = `
+<EditArgument
+  contentType="Petition"
+/>
+`;
+
+exports[`EditPetition should display unable to edit alert 1`] = `
+<EditArgument
+  contentType="Petition"
+/>
+`;
+
+exports[`EditPetition should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Edit Petition
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <PetitionForm
+            onCancel={[Function]}
+            onSubmit={[Function]}
+            petition={
+              Object {
+                "createdBy": Object {
+                  "username": "testUsername",
+                },
+              }
+            }
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

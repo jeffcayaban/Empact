@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoCreatorDisagreeAlert should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <Alert
+    bsClass="alert"
+    bsStyle="danger"
+    closeLabel="Close alert"
+  >
+    <h4>
+      You're not allowed to create a disagreeing argument towards your own argument.
+    </h4>
+  </Alert>
+</div>
+`;

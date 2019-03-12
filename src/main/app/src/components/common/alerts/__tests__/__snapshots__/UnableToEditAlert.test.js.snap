@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnableToEditAlert should render successfully 1`] = `
+<div
+  className="alertContainer"
+>
+  <Alert
+    bsClass="alert"
+    bsStyle="danger"
+    closeLabel="Close alert"
+  >
+    <h4>
+      Unable to edit this petition.
+    </h4>
+    <p>
+      You do not have the permissions to edit this petition.
+    </p>
+    <p
+      className="alertTextAndBtnPadding"
+    >
+      <Route
+        render={[Function]}
+      />
+    </p>
+  </Alert>
+</div>
+`;

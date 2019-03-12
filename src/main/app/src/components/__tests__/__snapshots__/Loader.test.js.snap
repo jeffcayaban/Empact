@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader should render correctly 1`] = `
+<div
+  className="loaderContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <onlyUpdateForKeys(Loader)
+      className=""
+      color="#7d7d7d"
+      height={4}
+      heightUnit="px"
+      loading={true}
+      width={100}
+      widthUnit="px"
+    />
+  </div>
+</div>
+`;

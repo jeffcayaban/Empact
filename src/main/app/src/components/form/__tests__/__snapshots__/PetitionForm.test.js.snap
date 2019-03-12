@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionForm should render successfully 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <FormGroup
+      bsClass="form-group"
+      controlId="title"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Title
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        maxLength={90}
+        onChange={[Function]}
+        placeholder="Enter a Title"
+        required={true}
+        type="text"
+      />
+      <FormControlFeedback
+        bsClass="form-control-feedback"
+        bsRole="feedback"
+      />
+      <div
+        className="nonEmptyFieldWarningContainer"
+      >
+        <div
+          className="nonEmptyFieldWarning"
+        />
+        <div
+          className="titleLengthCounter"
+        >
+          <p>
+            0
+            /
+            90
+          </p>
+        </div>
+      </div>
+    </FormGroup>
+    <TextAreaField
+      id="situation"
+      label="What is the current situation?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter the Current Situation"
+      required={true}
+    />
+    <TextAreaField
+      id="action"
+      label="What action should be performed?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter your Proposed Action"
+      required={true}
+    />
+    <TextAreaField
+      id="goal"
+      label="What would be achieved as a result of this action?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter the goal that would be achieved"
+      required={true}
+    />
+    <TextAreaField
+      id="value"
+      label="What value would be promoted as a result of what would be achieved?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter the value that would be promoted"
+      required={true}
+    />
+    <FormGroup
+      bsClass="form-group"
+      controlId="closingDateTime"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Closing Date
+      </ControlLabel>
+      <div
+        className="datePickerContainer"
+      >
+        <DatePicker
+          allowSameDay={false}
+          dateFormat="DD/MM/YYYY h:mma"
+          dateFormatCalendar="MMMM YYYY"
+          disabled={false}
+          disabledKeyboardNavigation={false}
+          dropdownMode="scroll"
+          minDate={"2017-03-12T15:35:34.000Z"}
+          monthsShown={1}
+          nextMonthButtonLabel="Next month"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClickOutside={[Function]}
+          onFocus={[Function]}
+          onInputClick={[Function]}
+          onInputError={[Function]}
+          onKeyDown={[Function]}
+          onMonthChange={[Function]}
+          onSelect={[Function]}
+          onYearChange={[Function]}
+          preventOpenOnFocus={false}
+          previousMonthButtonLabel="Previous Month"
+          readOnly={false}
+          renderDayContents={[Function]}
+          required={true}
+          selected={"2017-03-12T15:35:34.000Z"}
+          shouldCloseOnSelect={true}
+          showTimeSelect={true}
+          timeCaption="Time"
+          timeFormat="HH:mm"
+          timeIntervals={30}
+          withPortal={false}
+        />
+      </div>
+    </FormGroup>
+    <Checkbox
+      bsClass="checkbox"
+      disabled={false}
+      inline={false}
+      onChange={[Function]}
+      title=""
+    >
+      Stay Anonymous?
+    </Checkbox>
+    <div
+      className="buttonContainer"
+    >
+      <div
+        className="cancelButtonContainer"
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          disabled={false}
+          onClick={[MockFunction]}
+        >
+          Cancel
+        </Button>
+      </div>
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="primary"
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </Button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`PetitionForm should render successfully given the context of modification 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <FormGroup
+      bsClass="form-group"
+      controlId="title"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Title
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        maxLength={90}
+        onChange={[Function]}
+        placeholder="Enter a Title"
+        required={true}
+        type="text"
+      />
+      <FormControlFeedback
+        bsClass="form-control-feedback"
+        bsRole="feedback"
+      />
+      <div
+        className="nonEmptyFieldWarningContainer"
+      >
+        <div
+          className="nonEmptyFieldWarning"
+        />
+        <div
+          className="titleLengthCounter"
+        >
+          <p>
+            0
+            /
+            90
+          </p>
+        </div>
+      </div>
+    </FormGroup>
+    <TextAreaField
+      id="situation"
+      label="What is the current situation?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter the Current Situation"
+      required={true}
+    />
+    <TextAreaField
+      id="action"
+      label="What action should be performed?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter your Proposed Action"
+      required={true}
+    />
+    <TextAreaField
+      id="goal"
+      label="What would be achieved as a result of this action?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter the goal that would be achieved"
+      required={true}
+    />
+    <TextAreaField
+      id="value"
+      label="What value would be promoted as a result of what would be achieved?"
+      maxLength={3000}
+      onChange={[Function]}
+      placeholder="Enter the value that would be promoted"
+      required={true}
+    />
+    <FormGroup
+      bsClass="form-group"
+      controlId="closingDateTime"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Closing Date
+      </ControlLabel>
+      <div
+        className="datePickerContainer"
+      >
+        <DatePicker
+          allowSameDay={false}
+          dateFormat="DD/MM/YYYY h:mma"
+          dateFormatCalendar="MMMM YYYY"
+          disabled={false}
+          disabledKeyboardNavigation={false}
+          dropdownMode="scroll"
+          minDate={"2017-03-12T15:35:34.000Z"}
+          monthsShown={1}
+          nextMonthButtonLabel="Next month"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClickOutside={[Function]}
+          onFocus={[Function]}
+          onInputClick={[Function]}
+          onInputError={[Function]}
+          onKeyDown={[Function]}
+          onMonthChange={[Function]}
+          onSelect={[Function]}
+          onYearChange={[Function]}
+          preventOpenOnFocus={false}
+          previousMonthButtonLabel="Previous Month"
+          readOnly={false}
+          renderDayContents={[Function]}
+          required={true}
+          selected={"2017-03-12T15:35:34.000Z"}
+          shouldCloseOnSelect={true}
+          showTimeSelect={true}
+          timeCaption="Time"
+          timeFormat="HH:mm"
+          timeIntervals={30}
+          withPortal={false}
+        />
+      </div>
+    </FormGroup>
+    <Checkbox
+      bsClass="checkbox"
+      disabled={false}
+      inline={false}
+      onChange={[Function]}
+      title=""
+    >
+      Stay Anonymous?
+    </Checkbox>
+    <div
+      className="buttonContainer"
+    >
+      <div
+        className="cancelButtonContainer"
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          disabled={false}
+          onClick={[MockFunction]}
+        >
+          Cancel
+        </Button>
+      </div>
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="primary"
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </Button>
+    </div>
+  </form>
+</div>
+`;

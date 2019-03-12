@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareContent should render successfully 1`] = `
+<button
+  className="linkButton"
+  style={
+    Object {
+      "color": "black",
+      "fontWeight": "normal",
+    }
+  }
+  type="button"
+>
+  <OverlayTrigger
+    defaultOverlayShown={false}
+    overlay={
+      <Popover
+        bsClass="popover"
+        id="share-content-popover"
+        placement="right"
+        title="Share Petition"
+      >
+        <FormControl
+          bsClass="form-control"
+          bsSize="small"
+          componentClass="input"
+          readOnly={true}
+          type="text"
+          value="http://localhost:/petition/testContentId"
+        />
+        <div
+          className="copyLink"
+        >
+          <CopyToClipboard
+            onCopy={[Function]}
+            text="http://localhost:/petition/testContentId"
+          >
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsSize="small"
+              bsStyle="default"
+              disabled={false}
+            >
+              Copy Link
+            </Button>
+          </CopyToClipboard>
+        </div>
+      </Popover>
+    }
+    placement="bottom"
+    rootClose={true}
+    trigger="click"
+  >
+    <span>
+      <Glyphicon
+        bsClass="glyphicon"
+        className="shareGlyph"
+        glyph="share-alt"
+      />
+      Share
+    </span>
+  </OverlayTrigger>
+</button>
+`;

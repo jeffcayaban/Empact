@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateArgumentPanel should render nothing given the date has passed 1`] = `""`;
+
+exports[`CreateArgumentPanel should render successfully given the date has not passed 1`] = `
+<Collapse
+  appear={false}
+  dimension="height"
+  getDimensionValue={[Function]}
+  in={true}
+  mountOnEnter={false}
+  timeout={300}
+  unmountOnExit={false}
+>
+  <Grid
+    bsClass="container"
+    className="noSidePadding"
+    componentClass="div"
+    fluid={false}
+  >
+    <Col
+      bsClass="col"
+      className="noSidePadding"
+      componentClass="div"
+      id="createArgumentInvite"
+      lg={12}
+      md={12}
+    >
+      <CreateArgumentInvite
+        closeHandler={[MockFunction]}
+        contentId="testId"
+        contentType="Petition"
+        isContentCreator={true}
+      />
+    </Col>
+  </Grid>
+</Collapse>
+`;

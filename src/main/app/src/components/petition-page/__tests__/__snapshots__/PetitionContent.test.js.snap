@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionContent should render successfully and include the closing date popover 1`] = `
+<Uncontrolled(Panel)
+  className="noBottomMarginPanel"
+>
+  <ListGroup
+    bsClass="list-group"
+  >
+    <PetitionContentProperty
+      labelText="Situation:"
+      text="TestSituation"
+    />
+    <PetitionContentProperty
+      labelText="Proposed Action:"
+      text="TestAction"
+    />
+    <PetitionContentProperty
+      labelText="Goal that would be achieved:"
+      text="TestGoal"
+    />
+    <PetitionContentProperty
+      labelText="Value that would be promoted:"
+      text="TestValue"
+    />
+  </ListGroup>
+  <PanelFooter
+    bsClass="panel"
+  >
+    <div
+      className="spaceBetweenElements"
+    >
+      <span>
+        <CreatedByOn
+          content={
+            Object {
+              "action": "TestAction",
+              "closingDateTime": "2019-02-15T13:04:27Z",
+              "createdBy": Object {
+                "authorities": Array [
+                  "ROLE_ADMIN",
+                ],
+                "firstName": "Admin",
+                "id": 1,
+                "lastName": "Account",
+                "username": "admin",
+              },
+              "creationDateTime": "2019-02-14T13:04:29Z",
+              "goal": "TestGoal",
+              "id": 1,
+              "isAnonymous": false,
+              "isWinning": true,
+              "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+              "situation": "TestSituation",
+              "title": "TestTitle",
+              "value": "TestValue",
+            }
+          }
+          date="14-02-2019"
+        />
+      </span>
+      <span
+        className="closingDateLabel"
+      >
+        Ending in 
+        <div
+          style={
+            Object {
+              "paddingLeft": "4px",
+            }
+          }
+        >
+          1 year
+        </div>
+        <OverlayTrigger
+          defaultOverlayShown={false}
+          overlay={
+            <Popover
+              bsClass="popover"
+              id="closing-date-popover"
+              placement="right"
+              title="Closing Date"
+            >
+              15-02-2019 1:04pm
+            </Popover>
+          }
+          placement="top"
+          trigger={
+            Array [
+              "hover",
+              "focus",
+            ]
+          }
+        >
+          <Glyphicon
+            bsClass="glyphicon"
+            glyph="info-sign"
+            style={
+              Object {
+                "paddingLeft": "5px",
+              }
+            }
+          />
+        </OverlayTrigger>
+      </span>
+    </div>
+  </PanelFooter>
+</Uncontrolled(Panel)>
+`;
+
+exports[`PetitionContent should render successfully and not show the Created By message 1`] = `
+<Uncontrolled(Panel)
+  className="noBottomMarginPanel"
+>
+  <ListGroup
+    bsClass="list-group"
+  >
+    <PetitionContentProperty
+      labelText="Situation:"
+      text="TestSituation"
+    />
+    <PetitionContentProperty
+      labelText="Proposed Action:"
+      text="TestAction"
+    />
+    <PetitionContentProperty
+      labelText="Goal that would be achieved:"
+      text="TestGoal"
+    />
+    <PetitionContentProperty
+      labelText="Value that would be promoted:"
+      text="TestValue"
+    />
+  </ListGroup>
+  <PanelFooter
+    bsClass="panel"
+  >
+    <div
+      className="spaceBetweenElements"
+    >
+      <span>
+        <ShareContent
+          contentId={1}
+          contentType="Petition"
+        />
+      </span>
+      <span
+        className="closingDateLabel"
+      >
+        Closed on 15-02-2019 1:04pm
+      </span>
+    </div>
+  </PanelFooter>
+</Uncontrolled(Panel)>
+`;
+
+exports[`PetitionContent should render successfully and show the Created By message 1`] = `
+<Uncontrolled(Panel)
+  className="noBottomMarginPanel"
+>
+  <ListGroup
+    bsClass="list-group"
+  >
+    <PetitionContentProperty
+      labelText="Situation:"
+      text="TestSituation"
+    />
+    <PetitionContentProperty
+      labelText="Proposed Action:"
+      text="TestAction"
+    />
+    <PetitionContentProperty
+      labelText="Goal that would be achieved:"
+      text="TestGoal"
+    />
+    <PetitionContentProperty
+      labelText="Value that would be promoted:"
+      text="TestValue"
+    />
+  </ListGroup>
+  <PanelFooter
+    bsClass="panel"
+  >
+    <div
+      className="spaceBetweenElements"
+    >
+      <span>
+        <CreatedByOn
+          content={
+            Object {
+              "action": "TestAction",
+              "closingDateTime": "2019-02-15T13:04:27Z",
+              "createdBy": Object {
+                "authorities": Array [
+                  "ROLE_ADMIN",
+                ],
+                "firstName": "Admin",
+                "id": 1,
+                "lastName": "Account",
+                "username": "admin",
+              },
+              "creationDateTime": "2019-02-14T13:04:29Z",
+              "goal": "TestGoal",
+              "id": 1,
+              "isAnonymous": false,
+              "isWinning": true,
+              "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+              "situation": "TestSituation",
+              "title": "TestTitle",
+              "value": "TestValue",
+            }
+          }
+          date="14-02-2019"
+        />
+      </span>
+      <span
+        className="closingDateLabel"
+      >
+        Closed on 15-02-2019 1:04pm
+      </span>
+    </div>
+  </PanelFooter>
+</Uncontrolled(Panel)>
+`;

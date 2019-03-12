@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<div>
+  <HomeHeader />
+  <div>
+    <TopContent
+      contentMapFn={[Function]}
+      contentType="Petition"
+      mostDiscussedContent={Array []}
+    />
+    <TopContent
+      contentMapFn={[Function]}
+      contentType="Argument"
+      mostDiscussedContent={Array []}
+    />
+  </div>
+</div>
+`;
+
+exports[`Home should render the loader if isLoading is true 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentSources should render successfully 1`] = `
+<div
+  style={
+    Object {
+      "paddingTop": "20px",
+    }
+  }
+>
+  <Route
+    render={[Function]}
+  />
+</div>
+`;

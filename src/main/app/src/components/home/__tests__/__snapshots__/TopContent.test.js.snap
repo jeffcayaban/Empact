@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopContent should render arguments correctly 1`] = `
+<Grid
+  bsClass="container"
+  className="topContentContainer"
+  componentClass="div"
+  fluid={false}
+>
+  <Col
+    bsClass="col"
+    className="noSidePadding"
+    componentClass="div"
+    lg={12}
+    md={12}
+  >
+    <h4
+      id="content-table-title"
+      style={
+        Object {
+          "paddingBottom": "8px",
+        }
+      }
+    >
+      Most Discussed Arguments
+    </h4>
+    <Table
+      bordered={true}
+      bsClass="table"
+      condensed={false}
+      hover={true}
+      responsive={false}
+      striped={false}
+    >
+      <tbody />
+    </Table>
+  </Col>
+</Grid>
+`;
+
+exports[`TopContent should render arguments correctly 2`] = `
+<Grid
+  bsClass="container"
+  className="topContentContainer"
+  componentClass="div"
+  fluid={false}
+>
+  <Col
+    bsClass="col"
+    className="noSidePadding"
+    componentClass="div"
+    lg={12}
+    md={12}
+  >
+    <h4
+      id="content-table-title"
+      style={
+        Object {
+          "paddingBottom": "8px",
+        }
+      }
+    >
+      Most Discussed Arguments
+    </h4>
+    <Table
+      bordered={true}
+      bsClass="table"
+      condensed={false}
+      hover={true}
+      responsive={false}
+      striped={false}
+    >
+      <tbody />
+    </Table>
+  </Col>
+</Grid>
+`;
+
+exports[`TopContent should render correctly when there are no content to display 1`] = `
+<Grid
+  bsClass="container"
+  className="topContentContainer"
+  componentClass="div"
+  fluid={false}
+>
+  <Col
+    bsClass="col"
+    className="noSidePadding"
+    componentClass="div"
+    lg={12}
+    md={12}
+  >
+    <h4
+      id="content-table-title"
+      style={
+        Object {
+          "paddingBottom": "8px",
+        }
+      }
+    >
+      Most Discussed Arguments
+    </h4>
+    <NoArgumentsAndExploreAlert />
+  </Col>
+</Grid>
+`;
+
+exports[`TopContent should render petitions correctly 1`] = `
+<Grid
+  bsClass="container"
+  className="topContentContainer"
+  componentClass="div"
+  fluid={false}
+>
+  <Col
+    bsClass="col"
+    className="noSidePadding"
+    componentClass="div"
+    lg={12}
+    md={12}
+  >
+    <h4
+      id="content-table-title"
+      style={
+        Object {
+          "paddingBottom": "8px",
+        }
+      }
+    >
+      Most Discussed Petitions
+    </h4>
+    <Table
+      bordered={true}
+      bsClass="table"
+      condensed={false}
+      hover={true}
+      responsive={false}
+      striped={false}
+    >
+      <tbody />
+    </Table>
+  </Col>
+</Grid>
+`;

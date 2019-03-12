@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatedByOn should render successfully 1`] = `
+<span>
+  Created by 
+  <CreatorName
+    content={
+      Object {
+        "agreesWithCQ": true,
+        "argumentType": "ExpertOpinion",
+        "createdBy": Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+          "firstName": "testFirstName",
+          "id": "testId",
+          "lastName": "testLastName",
+          "username": "testUsername",
+        },
+        "creationDateTime": 1551716401541,
+        "criticalQuestionId": "CQ1",
+        "expert": "testExpert",
+        "expertAssertion": "testAssertion",
+        "expertDomain": "testDomain",
+        "id": "testId",
+        "isAnonymous": false,
+        "isSupporting": true,
+        "lastUpdatedDateTime": 1551716402000,
+        "parentArgumentId": "testParentArgumentId",
+        "rootPetitionId": "testRootPetitionId",
+        "sources": Array [],
+        "subCriticalQuestionId": null,
+      }
+    }
+  />
+   on testDate
+</span>
+`;

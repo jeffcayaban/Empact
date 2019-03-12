@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentVisualisation should render successfully 1`] = `
+<div>
+  <Uncontrolled(Panel)>
+    <PanelBody
+      bsClass="panel"
+      collapsible={false}
+    >
+      <div
+        className="centerStyle"
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="primary"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Arguments Overview
+        </Button>
+      </div>
+      <Modal
+        animation={true}
+        autoFocus={true}
+        backdrop={true}
+        bsClass="modal"
+        bsSize="large"
+        dialogComponentClass={[Function]}
+        enforceFocus={true}
+        keyboard={true}
+        manager={
+          ModalManager {
+            "add": [Function],
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "isTopModal": [Function],
+            "modals": Array [],
+            "remove": [Function],
+          }
+        }
+        onHide={[Function]}
+        renderBackdrop={[Function]}
+        restoreFocus={true}
+        show={false}
+      >
+        <ModalHeader
+          bsClass="modal-header"
+          closeButton={false}
+          closeLabel="Close"
+        >
+          <ModalTitle
+            bsClass="modal-title"
+            componentClass="h4"
+          >
+            Arguments Overview
+          </ModalTitle>
+        </ModalHeader>
+        <ModalBody
+          bsClass="modal-body"
+          componentClass="div"
+          style={
+            Object {
+              "height": 576,
+            }
+          }
+        >
+          <TreeNetwork
+            contentId="testId"
+            heightVal={400}
+            isPetition={true}
+          />
+        </ModalBody>
+        <ModalFooter
+          bsClass="modal-footer"
+          componentClass="div"
+        >
+          <div
+            className="argumentVisualisationBtns"
+          >
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="primary"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Help
+            </Button>
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="default"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Close
+            </Button>
+          </div>
+        </ModalFooter>
+      </Modal>
+    </PanelBody>
+  </Uncontrolled(Panel)>
+  <Modal
+    animation={true}
+    autoFocus={true}
+    backdrop={true}
+    bsClass="modal"
+    dialogComponentClass={[Function]}
+    enforceFocus={true}
+    keyboard={true}
+    manager={
+      ModalManager {
+        "add": [Function],
+        "containers": Array [],
+        "data": Array [],
+        "handleContainerOverflow": true,
+        "hideSiblingNodes": true,
+        "isTopModal": [Function],
+        "modals": Array [],
+        "remove": [Function],
+      }
+    }
+    onHide={[Function]}
+    renderBackdrop={[Function]}
+    restoreFocus={true}
+    show={false}
+  >
+    <ModalHeader
+      bsClass="modal-header"
+      closeButton={false}
+      closeLabel="Close"
+    >
+      <ModalTitle
+        bsClass="modal-title"
+        componentClass="h4"
+      >
+        Help
+      </ModalTitle>
+    </ModalHeader>
+    <ModalBody
+      bsClass="modal-body"
+      componentClass="div"
+    >
+      <h5>
+        How to use the visualisation:
+      </h5>
+      <p>
+        Scroll up to zoom in and scroll down to zoom out. Use your mouse to explore the different regions of the tree. Clicking on any of the nodes will redirect you to their respective page.
+      </p>
+      <hr />
+      <h5
+        className="argumentVisualisationKey"
+      >
+        Key:
+      </h5>
+      <Table
+        bordered={false}
+        bsClass="table"
+        condensed={false}
+        hover={false}
+        responsive={false}
+        striped={false}
+      >
+        <thead>
+          <tr>
+            <th>
+              Shape
+            </th>
+            <th>
+              Meaning
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              style={
+                Object {
+                  "color": "green",
+                }
+              }
+            >
+              Green Rectangles
+            </td>
+            <td>
+              Supporting Arguments
+            </td>
+          </tr>
+          <tr>
+            <td
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              Red Rectangles
+            </td>
+            <td>
+              Opposing Arguments
+            </td>
+          </tr>
+        </tbody>
+      </Table>
+    </ModalBody>
+    <ModalFooter
+      bsClass="modal-footer"
+      componentClass="div"
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Close
+      </Button>
+    </ModalFooter>
+  </Modal>
+</div>
+`;

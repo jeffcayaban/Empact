@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentPreviewBtns should render successfully 1`] = `
+<ListGroupItem
+  bsClass="list-group-item"
+  listItem={false}
+>
+  <ParentArgumentBtn
+    parentArgId="testId"
+    showArg={true}
+  />
+  <Button
+    active={false}
+    block={false}
+    bsClass="btn"
+    bsStyle="default"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Related Petition
+  </Button>
+</ListGroupItem>
+`;

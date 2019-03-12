@@ -1,0 +1,757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentsTable should render successfully call handleChangeSortBy for Least Discussed 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Least Discussed"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Argument"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`ArgumentsTable should render successfully call handleChangeSortBy for Most Discussed 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Most Discussed"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Argument"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`ArgumentsTable should render successfully call handleChangeSortBy for Oldest 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Oldest"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Argument"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`ArgumentsTable should render successfully for an argument whose parent is a petition 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Newest"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Petition"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`ArgumentsTable should render successfully for an argument whose parent is an argument 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Newest"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Argument"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`ArgumentsTable should render successfully for the most discussed arguments whose parent is a petition 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Newest"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Petition"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`ArgumentsTable should render successfully for the most discussed arguments whose parent is an argument 1`] = `
+<div>
+  <div
+    className="argumentsTableHeader"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "7px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <TableSortByBtn
+        id="true-args-sortby"
+        onSelect={[Function]}
+        showMoreOptions={true}
+        title="Newest"
+      />
+    </div>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="argumentsTable"
+    condensed={false}
+    hover={true}
+    responsive={true}
+    striped={false}
+  >
+    <tbody>
+      <withRouter(ArgumentEntry)
+        argument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "PopularOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:38Z",
+            "criticalQuestionId": "CQ2",
+            "explanation": "TestExplanation",
+            "id": 1,
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:51Z",
+            "parentArgumentId": null,
+            "rootPetitionId": 1,
+            "sources": Array [],
+          }
+        }
+        isSupporting={true}
+        key="0"
+        parentArgument={
+          Object {
+            "agreesWithCQ": true,
+            "argumentType": "ExpertOpinion",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "testFirstName",
+              "id": "testId",
+              "lastName": "testLastName",
+              "username": "testUsername",
+            },
+            "creationDateTime": 1551716401541,
+            "criticalQuestionId": "CQ1",
+            "expert": "testExpert",
+            "expertAssertion": "testAssertion",
+            "expertDomain": "testDomain",
+            "id": "testId",
+            "isAnonymous": false,
+            "isSupporting": true,
+            "lastUpdatedDateTime": 1551716402000,
+            "parentArgumentId": "testParentArgumentId",
+            "rootPetitionId": "testRootPetitionId",
+            "sources": Array [],
+            "subCriticalQuestionId": null,
+          }
+        }
+        parentContentCreatorId="testId"
+        parentContentType="Argument"
+        showCreatorBadge={true}
+        showCreatorName={true}
+      />
+    </tbody>
+  </Table>
+  <div
+    className="argumentsTableFooter"
+  >
+    <TableFooter
+      onNext={[Function]}
+      onPrevious={[Function]}
+      pageNumber={0}
+      totalPages={0}
+    />
+  </div>
+</div>
+`;

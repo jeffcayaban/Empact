@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionsTable should render successfully and get the most discussed petitions 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Petitions
+    </h2>
+    <p
+      align="center"
+    >
+      Explore the petitions!
+    </p>
+  </div>
+  <div
+    className="secondaryPageContainerStyle"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        className="divNoPadding"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Tabs)
+          activeKey={1}
+          id="petitions-table-tabs"
+          onSelect={[Function]}
+        >
+          <Tab
+            eventKey={1}
+            title="Newest"
+          >
+            <PetitionsTable
+              byNoOfArgs={false}
+              sort="desc"
+            />
+          </Tab>
+          <Tab
+            eventKey={2}
+            title="Oldest"
+          />
+          <Tab
+            eventKey={3}
+            title="Most Discussed"
+          />
+          <Tab
+            eventKey={4}
+            title="Least Discussed"
+          />
+        </Uncontrolled(Tabs)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;

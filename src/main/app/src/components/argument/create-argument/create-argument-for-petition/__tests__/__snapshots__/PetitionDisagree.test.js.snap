@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionDisagree should render a content retrieval alert 1`] = `
+<div
+  className="alertContainer"
+>
+  <ContentRetrievalAlert
+    contentType="Petition"
+  />
+</div>
+`;
+
+exports[`PetitionDisagree should render a loader 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;
+
+exports[`PetitionDisagree should successfully render the page given the petition is closed. 1`] = `<NoArgCreationOnClosedPetitionAlert />`;
+
+exports[`PetitionDisagree should successfully render the page given the petition is open 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      You 
+      <strong>
+        disagree
+      </strong>
+       with the petition
+    </h2>
+    <p
+      align="center"
+    >
+      Tell us your reasons for deciding this!
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingTop": "30px",
+      }
+    }
+  >
+    <SituationCQ1
+      isSupporting={false}
+      petitionId="testId"
+      situation="TestSituation"
+    />
+    <ActionCQ3
+      isSupporting={false}
+      petition={
+        Object {
+          "action": "TestAction",
+          "closingDateTime": "2019-02-15T13:04:27Z",
+          "createdBy": Object {
+            "authorities": Array [
+              "ROLE_ADMIN",
+            ],
+            "firstName": "Admin",
+            "id": 1,
+            "lastName": "Account",
+            "username": "admin",
+          },
+          "creationDateTime": "2019-02-14T13:04:29Z",
+          "goal": "TestGoal",
+          "id": 1,
+          "isAnonymous": false,
+          "isWinning": true,
+          "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+          "situation": "TestSituation",
+          "title": "TestTitle",
+          "value": "TestValue",
+        }
+      }
+      petitionId="testId"
+    />
+  </div>
+  <Route
+    render={[Function]}
+  />
+</div>
+`;

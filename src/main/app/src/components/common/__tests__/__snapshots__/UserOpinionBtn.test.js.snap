@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserOpinionBtn should render successfully 1`] = `
+<div
+  className="userOpinionBtns"
+>
+  <Button
+    active={false}
+    block={false}
+    bsClass="btn"
+    bsStyle="default"
+    disabled={false}
+    onClick={[MockFunction]}
+  >
+    No
+  </Button>
+</div>
+`;

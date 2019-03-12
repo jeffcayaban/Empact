@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditPetitionHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Editing a Petition
+    </h2>
+    <p>
+      Understand how to edit a petition.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to edit a petition
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <Alert
+              bsClass="alert"
+              bsStyle="info"
+              closeLabel="Close alert"
+            >
+              You will need to be logged in into a user account and to have an existing open petition.
+            </Alert>
+            <p>
+              1. Click on the "Edit" button that is found on the page of your petition.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "15px",
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <img
+                alt="Edit Petition Link"
+                src="edit-petition-link.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "45%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              2. Update your petition by modifying the information on the form.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "40px",
+                }
+              }
+            >
+              <img
+                alt="Edit Petition Form"
+                src="edit-petition-form.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "45%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              3. Once completed, click on the "Submit" button that is located towards the bottom of the page.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "15px",
+                }
+              }
+            >
+              <img
+                alt="Submit Petition Button"
+                src="edit-petition-submit.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "15%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              4. Clicking on the submit button will display a dialog to confirm whether the details of the petition accurately reflect your viewpoint. Clicking on "Yes" will update the petition with the details that you have provided. Below shows an image of the expected confirmation dialog.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Confirmation Dialog"
+                src="edit-petition-confirm.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              5. If the modification is successful then you will be shown a confirmation screen, otherwise an error screen will be displayed.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={4}
+                    md={4}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If successful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Successful Petition Modification Screen"
+                          src="successful-edit-petition.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={4}
+                    md={4}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If unsuccessful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Unsuccessful Petition Modification Screen"
+                          src="unsuccessful-edit-petition.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={4}
+                    md={4}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If unsuccessful (due to no new details)
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="No new detail screen"
+                          src="unsuccessful-edit-arg-2.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+          </div>
+          <BackButton
+            link="/help/petition"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

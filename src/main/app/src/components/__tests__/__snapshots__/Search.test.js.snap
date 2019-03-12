@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render a loader 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;
+
+exports[`Search should render successfully 1`] = `
+<div
+  style={
+    Object {
+      "paddingBottom": "30px",
+    }
+  }
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Search
+    </h2>
+    <p>
+      Search petitions on the site!
+    </p>
+  </div>
+  <div
+    className="divNoPadding"
+    style={
+      Object {
+        "paddingTop": "40px",
+      }
+    }
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <FormGroup
+          bsClass="form-group"
+          bsSize="lg"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+        </FormGroup>
+      </Grid>
+      <Grid
+        bsClass="container"
+        className="showClosedCheckbox"
+        componentClass="div"
+        fluid={false}
+      >
+        <Checkbox
+          bsClass="checkbox"
+          checked={false}
+          disabled={false}
+          inline={false}
+          onChange={[Function]}
+          title=""
+        >
+          Show Closed
+        </Checkbox>
+      </Grid>
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <div
+          className="centerStyle"
+          style={
+            Object {
+              "paddingTop": "15px",
+            }
+          }
+        >
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsSize="large"
+            bsStyle="default"
+            disabled={false}
+            type="submit"
+          >
+            Search
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="search"
+              style={
+                Object {
+                  "paddingLeft": "12px",
+                }
+              }
+            />
+          </Button>
+        </div>
+      </Grid>
+    </form>
+  </div>
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+    style={
+      Object {
+        "paddingTop": "60px",
+      }
+    }
+  >
+    <Col
+      bsClass="col"
+      componentClass="div"
+      lg={12}
+      md={12}
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "15px",
+          }
+        }
+      >
+        <TableSortByBtn
+          onSelect={[Function]}
+          showMoreOptions={false}
+          title="Newest"
+          totalContentCount={1}
+        />
+      </div>
+      <PetitionsContentTable
+        loadFromServer={[Function]}
+        pageNumber={0}
+        petitions={
+          Array [
+            Object {
+              "action": "TestAction",
+              "closingDateTime": "2019-02-15T13:04:27Z",
+              "createdBy": Object {
+                "authorities": Array [
+                  "ROLE_ADMIN",
+                ],
+                "firstName": "Admin",
+                "id": 1,
+                "lastName": "Account",
+                "username": "admin",
+              },
+              "creationDateTime": "2019-02-14T13:04:29Z",
+              "goal": "TestGoal",
+              "id": 1,
+              "isAnonymous": false,
+              "isWinning": true,
+              "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+              "situation": "TestSituation",
+              "title": "TestTitle",
+              "value": "TestValue",
+            },
+          ]
+        }
+        showFollowUp={false}
+        totalPages={1}
+      />
+    </Col>
+  </Grid>
+</div>
+`;
+
+exports[`Search should successfully call fetchPetitions 1`] = `
+<div
+  style={
+    Object {
+      "paddingBottom": "30px",
+    }
+  }
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Search
+    </h2>
+    <p>
+      Search petitions on the site!
+    </p>
+  </div>
+  <div
+    className="divNoPadding"
+    style={
+      Object {
+        "paddingTop": "40px",
+      }
+    }
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <FormGroup
+          bsClass="form-group"
+          bsSize="lg"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+        </FormGroup>
+      </Grid>
+      <Grid
+        bsClass="container"
+        className="showClosedCheckbox"
+        componentClass="div"
+        fluid={false}
+      >
+        <Checkbox
+          bsClass="checkbox"
+          checked={false}
+          disabled={false}
+          inline={false}
+          onChange={[Function]}
+          title=""
+        >
+          Show Closed
+        </Checkbox>
+      </Grid>
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <div
+          className="centerStyle"
+          style={
+            Object {
+              "paddingTop": "15px",
+            }
+          }
+        >
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsSize="large"
+            bsStyle="default"
+            disabled={false}
+            type="submit"
+          >
+            Search
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="search"
+              style={
+                Object {
+                  "paddingLeft": "12px",
+                }
+              }
+            />
+          </Button>
+        </div>
+      </Grid>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Search should successfully call handleChangeSortBy 1`] = `
+<div
+  style={
+    Object {
+      "paddingBottom": "30px",
+    }
+  }
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Search
+    </h2>
+    <p>
+      Search petitions on the site!
+    </p>
+  </div>
+  <div
+    className="divNoPadding"
+    style={
+      Object {
+        "paddingTop": "40px",
+      }
+    }
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <FormGroup
+          bsClass="form-group"
+          bsSize="lg"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+        </FormGroup>
+      </Grid>
+      <Grid
+        bsClass="container"
+        className="showClosedCheckbox"
+        componentClass="div"
+        fluid={false}
+      >
+        <Checkbox
+          bsClass="checkbox"
+          checked={false}
+          disabled={false}
+          inline={false}
+          onChange={[Function]}
+          title=""
+        >
+          Show Closed
+        </Checkbox>
+      </Grid>
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <div
+          className="centerStyle"
+          style={
+            Object {
+              "paddingTop": "15px",
+            }
+          }
+        >
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsSize="large"
+            bsStyle="default"
+            disabled={false}
+            type="submit"
+          >
+            Search
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="search"
+              style={
+                Object {
+                  "paddingLeft": "12px",
+                }
+              }
+            />
+          </Button>
+        </div>
+      </Grid>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Search should successfully call handleSubmit 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;
+
+exports[`Search should successfully handle fetchPetitions failing 1`] = `
+<div
+  style={
+    Object {
+      "paddingBottom": "30px",
+    }
+  }
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Search
+    </h2>
+    <p>
+      Search petitions on the site!
+    </p>
+  </div>
+  <div
+    className="divNoPadding"
+    style={
+      Object {
+        "paddingTop": "40px",
+      }
+    }
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <FormGroup
+          bsClass="form-group"
+          bsSize="lg"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+        </FormGroup>
+      </Grid>
+      <Grid
+        bsClass="container"
+        className="showClosedCheckbox"
+        componentClass="div"
+        fluid={false}
+      >
+        <Checkbox
+          bsClass="checkbox"
+          checked={false}
+          disabled={false}
+          inline={false}
+          onChange={[Function]}
+          title=""
+        >
+          Show Closed
+        </Checkbox>
+      </Grid>
+      <Grid
+        bsClass="container"
+        componentClass="div"
+        fluid={false}
+      >
+        <div
+          className="centerStyle"
+          style={
+            Object {
+              "paddingTop": "15px",
+            }
+          }
+        >
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsSize="large"
+            bsStyle="default"
+            disabled={false}
+            type="submit"
+          >
+            Search
+            <Glyphicon
+              bsClass="glyphicon"
+              glyph="search"
+              style={
+                Object {
+                  "paddingLeft": "12px",
+                }
+              }
+            />
+          </Button>
+        </div>
+      </Grid>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManagePetitions should correctly call handleClosingPetition 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManagePetitions should correctly call handleClosingPetitionRequest 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManagePetitions should correctly call handleDeletePetition 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManagePetitions should correctly call handleDeletePetitionRequest 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManagePetitions should render an alert given the user is not logged in. 1`] = `<NotPermittedAlert />`;
+
+exports[`ManagePetitions should render correctly given the content type is User 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManagePetitions should unsuccessfully call handleClosingPetition given the API call was not successful 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManagePetitions should unsuccessfully call handleDeletePetition given the API call was not successful 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Petitions
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+    <ManageContentPanel
+      contentAction="Close"
+      contentType="Petition"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;

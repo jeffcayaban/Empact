@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Petition Help
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <ListGroup
+            bsClass="list-group"
+          >
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Viewing Petitions
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Creating a Petition
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Editing a Petition
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Deleting a Petition
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Closing a Petition
+            </ListGroupItem>
+            <ListGroupItem
+              bsClass="list-group-item"
+              listItem={false}
+              onClick={[Function]}
+            >
+              Searching Petitions
+            </ListGroupItem>
+          </ListGroup>
+          <BackButton
+            link="/help"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

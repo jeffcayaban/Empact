@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LastUpdated should render nothing 1`] = `""`;
+
+exports[`LastUpdated should render successfully 1`] = `
+<span
+  style={
+    Object {
+      "paddingLeft": "5px",
+    }
+  }
+>
+  (Updated on 19-01-1970)
+</span>
+`;

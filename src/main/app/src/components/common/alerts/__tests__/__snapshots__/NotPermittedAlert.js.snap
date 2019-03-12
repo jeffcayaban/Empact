@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoPetitionsAndExploreAlert should render successfully 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closeLabel="Close alert"
+>
+  There are no petitions here!
+</Alert>
+`;
+
+exports[`NoPetitionsAndExploreAlert should render successfully given a showFollowUp context 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closeLabel="Close alert"
+>
+  There are no petitions here!
+   Click 
+  <Link
+    replace={false}
+    to="/petition/create"
+  >
+    here
+  </Link>
+   to create your petition!
+</Alert>
+`;

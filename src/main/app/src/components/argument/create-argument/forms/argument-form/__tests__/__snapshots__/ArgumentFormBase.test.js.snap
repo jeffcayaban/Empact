@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentFormBase should render successfully 1`] = `
+<div>
+  <p
+    align="center"
+    style={
+      Object {
+        "paddingTop": "20px",
+      }
+    }
+  >
+    Can you provide any URL sources to prove your argument? (optional)
+  </p>
+  <div
+    className="centerStyle"
+  >
+    <ButtonGroup
+      block={false}
+      bsClass="btn-group"
+      justified={false}
+      vertical={false}
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
+        disabled={false}
+        onClick={[Function]}
+      >
+        +
+      </Button>
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
+        disabled={false}
+        onClick={[Function]}
+      >
+        -
+      </Button>
+    </ButtonGroup>
+  </div>
+  <div
+    className="argSources"
+  >
+    <ArgumentFormSources
+      handleChangeSource={[MockFunction]}
+      sources={
+        Array [
+          "testSource1",
+        ]
+      }
+    />
+  </div>
+  <Checkbox
+    bsClass="checkbox"
+    checked={false}
+    disabled={false}
+    inline={false}
+    onChange={[Function]}
+    title=""
+  >
+    Stay Anonymous?
+  </Checkbox>
+  <div
+    className="argFormSubmitBtnContainer"
+  >
+    <Button
+      active={false}
+      block={false}
+      bsClass="btn"
+      bsStyle="primary"
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </Button>
+  </div>
+</div>
+`;

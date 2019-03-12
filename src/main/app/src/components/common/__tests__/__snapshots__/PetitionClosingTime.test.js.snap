@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionClosingTime should render successfully given the petition is closed 1`] = `
+<div
+  className="closedPetitionTime"
+>
+  Closed on 19-01-1970
+</div>
+`;
+
+exports[`PetitionClosingTime should render successfully given the petition is not closed 1`] = `
+<span
+  className="activeClosingTime"
+>
+  Ending in 
+  <div
+    className="petitionTimeRemaining"
+  >
+    <p
+      style={
+        Object {
+          "color": "red",
+          "marginBottom": "0px",
+        }
+      }
+    >
+      -1487694630 seconds
+    </p>
+  </div>
+</span>
+`;

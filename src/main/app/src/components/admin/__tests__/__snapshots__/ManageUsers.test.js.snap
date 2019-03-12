@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageUsers should correctly call handleDeleteUser 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Users
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="User"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManageUsers should correctly call handleDeleteUserRequest 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Users
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="User"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManageUsers should render an alert given the user is not logged in. 1`] = `<NotPermittedAlert />`;
+
+exports[`ManageUsers should render correctly given the content type is User 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Users
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="User"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManageUsers should unsuccessfully call handleDeleteUser given the API call was not successful 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Users
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="User"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoutHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Logging Out
+    </h2>
+    <p>
+      Understand how to log out of your account.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to logout
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <p>
+              1. Click on the logout link that is located on the top navigation bar. Clicking on this link will proceed to logging out of your account.
+            </p>
+            <div
+              className="centerStyle"
+            >
+              <img
+                alt="Logout Link"
+                src="logout-link.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "35%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              2. If the logout is successful then you will be shown a confirmation notification.
+            </p>
+            <div
+              className="centerStyle"
+            >
+              <img
+                alt="Logout Link"
+                src="successful-logout.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "25%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <BackButton
+            link="/help/account"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Petition should display a content retrieval alert given no petition data 1`] = `
+<div
+  className="alertContainer"
+>
+  <ContentRetrievalAlert
+    contentType="Petition"
+  />
+</div>
+`;
+
+exports[`Petition should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+    style={
+      Object {
+        "paddingTop": "15px",
+      }
+    }
+  >
+    <Col
+      bsClass="col"
+      className="noSidePadding"
+      componentClass="div"
+      lg={12}
+      md={12}
+    >
+      <h1
+        align="center"
+      >
+        TestTitle
+      </h1>
+      <div
+        className="centerStyle"
+        style={
+          Object {
+            "paddingTop": "10px",
+          }
+        }
+      >
+        <CreatedByOn
+          content={
+            Object {
+              "action": "TestAction",
+              "closingDateTime": "2019-02-15T13:04:27Z",
+              "createdBy": Object {
+                "authorities": Array [
+                  "ROLE_ADMIN",
+                ],
+                "firstName": "Admin",
+                "id": 1,
+                "lastName": "Account",
+                "username": "admin",
+              },
+              "creationDateTime": "2019-02-14T13:04:29Z",
+              "goal": "TestGoal",
+              "id": 1,
+              "isAnonymous": false,
+              "isWinning": true,
+              "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+              "situation": "TestSituation",
+              "title": "TestTitle",
+              "value": "TestValue",
+            }
+          }
+          date="14-02-2019"
+        />
+        <LastUpdated
+          creationDateTime="2019-02-14T13:04:29Z"
+          lastUpdatedDateTime="2019-02-14T13:04:38Z"
+        />
+      </div>
+    </Col>
+  </Grid>
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+    style={
+      Object {
+        "paddingTop": "40px",
+      }
+    }
+  >
+    <Col
+      bsClass="col"
+      className="noSidePadding"
+      componentClass="div"
+      lg={12}
+      md={12}
+    >
+      <div
+        className="spaceBetweenElements"
+        style={
+          Object {
+            "paddingBottom": "15px",
+          }
+        }
+      >
+        <div
+          className="contentIdNumber"
+        >
+          ID: 1
+        </div>
+      </div>
+      <PetitionContent
+        petition={
+          Object {
+            "action": "TestAction",
+            "closingDateTime": "2019-02-15T13:04:27Z",
+            "createdBy": Object {
+              "authorities": Array [
+                "ROLE_ADMIN",
+              ],
+              "firstName": "Admin",
+              "id": 1,
+              "lastName": "Account",
+              "username": "admin",
+            },
+            "creationDateTime": "2019-02-14T13:04:29Z",
+            "goal": "TestGoal",
+            "id": 1,
+            "isAnonymous": false,
+            "isWinning": true,
+            "lastUpdatedDateTime": "2019-02-14T13:04:38Z",
+            "situation": "TestSituation",
+            "title": "TestTitle",
+            "value": "TestValue",
+          }
+        }
+        showCreatedByOnFooter={false}
+      />
+    </Col>
+  </Grid>
+  <CreateArgumentPanel
+    closingDateTime="2019-02-15T13:04:27Z"
+    hideCreateArgumentInvite={[Function]}
+    isPetitionCreator={false}
+    petitionId={1}
+    showCreateArgument={true}
+  />
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+    style={
+      Object {
+        "paddingTop": "30px",
+      }
+    }
+  >
+    <Col
+      bsClass="col"
+      className="noSidePadding"
+      componentClass="div"
+      lg={12}
+      md={12}
+    >
+      <ArgumentVisualisation
+        contentId={1}
+        isPetition={true}
+      />
+    </Col>
+  </Grid>
+  <Grid
+    bsClass="container"
+    className="divNoPadding"
+    componentClass="div"
+    fluid={false}
+  >
+    <Row
+      bsClass="row"
+      componentClass="div"
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={6}
+        md={6}
+      >
+        <ArgumentPanel
+          isCreator={false}
+          isSupporting={true}
+          parentContentType="Petition"
+          parentCreatedById={1}
+          subjectId={1}
+        />
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={6}
+        md={6}
+      >
+        <ArgumentPanel
+          isCreator={false}
+          isSupporting={false}
+          parentContentType="Petition"
+          parentCreatedById={1}
+          subjectId={1}
+        />
+      </Col>
+    </Row>
+  </Grid>
+</div>
+`;

@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserArguments should display new arguments when requested to be sorted by least discussed 1`] = `
+<UserPetitions
+  isLoading={true}
+/>
+`;
+
+exports[`UserArguments should display new arguments when requested to be sorted by most discussed 1`] = `
+<UserPetitions
+  isLoading={true}
+/>
+`;
+
+exports[`UserArguments should display new arguments when requested to be sorted by oldest 1`] = `
+<UserPetitions
+  isLoading={true}
+/>
+`;
+
+exports[`UserArguments should render correctly given invalid inputs 1`] = `
+<Uncontrolled(Panel)>
+  <PanelHeading
+    bsClass="panel"
+    componentClass="div"
+  >
+    <PanelTitle
+      bsClass="panel"
+      componentClass="div"
+    >
+      <div
+        className="spaceBetweenElements"
+      >
+        <div>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  512,
+                  512,
+                  Array [],
+                  "f075",
+                  "M256 32C114.6 32 0 125.1 0 240c0 49.6 21.4 95 57 130.7C44.5 421.1 2.7 466 2.2 466.5c-2.2 2.3-2.8 5.7-1.5 8.7S4.8 480 8 480c66.3 0 116-31.8 140.6-51.4 32.7 12.3 69 19.4 107.4 19.4 141.4 0 256-93.1 256-208S397.4 32 256 32z",
+                ],
+                "iconName": "comment",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+          <span
+            style={
+              Object {
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            Arguments
+          </span>
+        </div>
+        <div>
+          0
+        </div>
+      </div>
+    </PanelTitle>
+  </PanelHeading>
+  <PanelBody
+    bsClass="panel"
+    className="argumentsPanelBody"
+    collapsible={false}
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        <div
+          className="spaceBetweenElements"
+          style={
+            Object {
+              "paddingBottom": "7px",
+              "paddingTop": "7px",
+            }
+          }
+        >
+          <TableSortByBtn
+            id="undefined-arguments-table-filter"
+            onSelect={[Function]}
+            showMoreOptions={true}
+            title="Newest"
+            totalContentCount={0}
+          />
+        </div>
+      </div>
+      <NoContentAlert
+        contentType="Argument"
+      />
+      <div
+        className="userContentTableFooter"
+      >
+        <TableFooter
+          onNext={[Function]}
+          onPrevious={[Function]}
+          pageNumber={0}
+          totalPages={0}
+        />
+      </div>
+    </div>
+  </PanelBody>
+</Uncontrolled(Panel)>
+`;
+
+exports[`UserArguments should render correctly given the most discussed arguments are failed to be fetched 1`] = `
+<UserPetitions
+  isLoading={true}
+/>
+`;
+
+exports[`UserArguments should render correctly with the arguments being failed to be fetched 1`] = `
+<UserPetitions
+  isLoading={true}
+/>
+`;
+
+exports[`UserArguments should render correctly with the fetched arguments 1`] = `
+<UserPetitions
+  isLoading={true}
+/>
+`;

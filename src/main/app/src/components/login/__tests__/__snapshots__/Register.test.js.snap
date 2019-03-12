@@ -1,0 +1,921 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register should generate an error if signup fails 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={false}
+                type="submit"
+              >
+                Check Availability
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should render successfully 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={false}
+                type="submit"
+              >
+                Check Availability
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should successfully call checkUsernameAvailability if the api fails 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={true}
+                type="submit"
+              >
+                Checking...
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should successfully call checkUsernameAvailability if the username is available 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={true}
+                type="submit"
+              >
+                Checking...
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should successfully call checkUsernameAvailability if the username is unavailable 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={true}
+                type="submit"
+              >
+                Checking...
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should successfully call generateUserDetailForm 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={false}
+                type="submit"
+              >
+                Check Availability
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should successfully call handleSubmit 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={false}
+                type="submit"
+              >
+                Check Availability
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Register should successfully call onSubmit 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+    >
+      Register
+    </h2>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+      style={
+        Object {
+          "paddingTop": "30px",
+        }
+      }
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+      >
+        <Uncontrolled(Panel)>
+          <PanelHeading
+            bsClass="panel"
+            componentClass="div"
+          >
+            <PanelTitle
+              bsClass="panel"
+              componentClass="h3"
+            >
+              1. Check if your username is available
+            </PanelTitle>
+          </PanelHeading>
+          <PanelBody
+            bsClass="panel"
+            collapsible={false}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  id="username-label"
+                  srOnly={false}
+                >
+                  Username
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  disabled={false}
+                  id="username-input"
+                  maxLength={15}
+                  onChange={[Function]}
+                  placeholder="Enter a Username"
+                  required={true}
+                  type="text"
+                />
+                <FormControlFeedback
+                  bsClass="form-control-feedback"
+                  bsRole="feedback"
+                />
+                <div
+                  id="usernameFieldValidation"
+                >
+                  <div
+                    id="usernameFieldError"
+                  />
+                  <div
+                    style={
+                      Object {
+                        "paddingTop": "5px",
+                        "resizeMode": "contain",
+                      }
+                    }
+                  >
+                    <p>
+                      0
+                      /15
+                    </p>
+                  </div>
+                </div>
+              </FormGroup>
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="primary"
+                disabled={false}
+                type="submit"
+              >
+                Check Availability
+              </Button>
+            </form>
+          </PanelBody>
+        </Uncontrolled(Panel)>
+      </Col>
+    </Grid>
+  </div>
+</div>
+`;

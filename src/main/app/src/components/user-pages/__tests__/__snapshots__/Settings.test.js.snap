@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings display the settings page when the user is logged in 1`] = `
+<div
+  id="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Settings
+    </h2>
+  </div>
+  <div
+    id="settingsContainer"
+  >
+    <Grid
+      bsClass="container"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <Uncontrolled(Panel)
+            defaultExpanded={false}
+          >
+            <PanelHeading
+              bsClass="panel"
+              componentClass="div"
+            >
+              <PanelTitle
+                bsClass="panel"
+                componentClass="div"
+                toggle={true}
+              >
+                Delete Account
+              </PanelTitle>
+            </PanelHeading>
+            <PanelCollapse
+              bsClass="panel"
+            >
+              <PanelBody
+                bsClass="panel"
+                collapsible={false}
+              >
+                <Alert
+                  bsClass="alert"
+                  bsStyle="warning"
+                  closeLabel="Close alert"
+                >
+                  Deleting your account will additionally delete all of your created petitions and arguments. This action is irreversible.
+                </Alert>
+                <div
+                  id="deleteAccountBtnContainer"
+                >
+                  <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="danger"
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    Delete Account
+                  </Button>
+                </div>
+              </PanelBody>
+            </PanelCollapse>
+          </Uncontrolled(Panel)>
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;
+
+exports[`Settings should display the log in page when the user is NOT logged in 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/login",
+    }
+  }
+/>
+`;
+
+exports[`Settings should render correctly when the user account is not successfully deleted 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/login",
+    }
+  }
+/>
+`;
+
+exports[`Settings should render correctly when the user account is successfully deleted 1`] = `
+<Redirect
+  push={false}
+  to={
+    Object {
+      "pathname": "/login",
+    }
+  }
+/>
+`;

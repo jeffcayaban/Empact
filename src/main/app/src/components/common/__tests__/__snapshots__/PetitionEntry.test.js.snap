@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionEntry should successfully render given the creator name is not to be shown 1`] = `
+<tr>
+  <th
+    className="argumentPanelRow"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "10px",
+        }
+      }
+    >
+      <div>
+        <Link
+          id="petitionEntryTitle"
+          replace={false}
+          to="/petition/1"
+        >
+          TestTitle
+        </Link>
+      </div>
+      <ArgCounts
+        noOfAgainstArguments={0}
+        noOfForArguments={0}
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "paddingBottom": "10px",
+        }
+      }
+    >
+      truncatedText
+    </div>
+    <div
+      className="creationDetailsStyle"
+    >
+      Created on 14-02-2019 • 
+      <PetitionClosingTime
+        closingDateTime="2019-02-15T13:04:27Z"
+      />
+    </div>
+  </th>
+</tr>
+`;
+
+exports[`PetitionEntry should successfully render given the creator name is to be shown 1`] = `
+<tr>
+  <th
+    className="argumentPanelRow"
+  >
+    <div
+      className="spaceBetweenElements"
+      style={
+        Object {
+          "paddingBottom": "10px",
+        }
+      }
+    >
+      <div>
+        <Link
+          id="petitionEntryTitle"
+          replace={false}
+          to="/petition/1"
+        >
+          TestTitle
+        </Link>
+      </div>
+      <ArgCounts
+        noOfAgainstArguments={0}
+        noOfForArguments={0}
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "paddingBottom": "10px",
+        }
+      }
+    >
+      truncatedText
+    </div>
+    <div
+      className="creationDetailsStyle"
+    >
+      By 
+      <span
+        className="creatorNameStyle"
+      >
+        <Link
+          replace={false}
+          to="/user/admin"
+        >
+          Admin Account
+        </Link>
+      </span>
+       on 14-02-2019 • 
+      <PetitionClosingTime
+        closingDateTime="2019-02-15T13:04:27Z"
+      />
+    </div>
+  </th>
+</tr>
+`;

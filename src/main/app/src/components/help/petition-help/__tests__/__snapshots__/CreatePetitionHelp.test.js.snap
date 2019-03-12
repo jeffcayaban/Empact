@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePetitionHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Creating a Petition
+    </h2>
+    <p>
+      Understand how to create a petition.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to create a petition
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <Alert
+              bsClass="alert"
+              bsStyle="info"
+              closeLabel="Close alert"
+            >
+              You will need to be logged in into a user account in order to create a petition.
+            </Alert>
+            <p>
+              1. Go to the create petition page by clicking on the "
+              <Link
+                replace={false}
+                to="/petition/create"
+              >
+                Create
+              </Link>
+              " link on the top navigation bar.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Create Petition Link"
+                src="create-petition-link.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              2. Enter the details for your new petition by typing them into their respective fields. You must also choose a closing date for your petition. Optionally, you can also select to create your petition anonymously.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "30px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Create Petition Form"
+                src="create-petition-form.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "80%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              3. When you are ready to create your petition, click on the "Submit" button (this is located towards the bottom of the page). This will display a confirmation dialog to confirm whether the details accurately reflect your views. Click "Yes" to proceed with creating your petition, otherwise click "Cancel".
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Create Petition Confirmation"
+                src="create-petition-confirm.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              4. If the creation is successful then you will be shown a confirmation screen, otherwise an error screen will be displayed.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If successful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Successful Petition Creation Screen"
+                          src="successful-create-petition.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If unsuccessful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Unsuccessful Petition Creation Screen"
+                          src="unsuccessful-create-petition.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+          </div>
+          <BackButton
+            link="/help/petition"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

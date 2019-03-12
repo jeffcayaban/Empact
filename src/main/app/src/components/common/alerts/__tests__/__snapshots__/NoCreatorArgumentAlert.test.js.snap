@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoCreatorArgumentAlert should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <Alert
+    bsClass="alert"
+    bsStyle="danger"
+    closeLabel="Close alert"
+  >
+    <h4>
+      You're not allowed to create an argument on your own petition
+    </h4>
+  </Alert>
+</div>
+`;

@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteArgumentHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Deleting an Argument
+    </h2>
+    <p>
+      Understand how to delete an argument.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to delete an argument
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <Alert
+              bsClass="alert"
+              bsStyle="info"
+              closeLabel="Close alert"
+            >
+              You will need to be logged in into a user account and to have an existing open argument.
+            </Alert>
+            <p>
+              1. Click on the "Delete" button that is found on the page of your argument.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "15px",
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <img
+                alt="Delete Button on the Argument Page"
+                src="delete-arg-atf.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "35%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              2. A dialog will be displayed to confirm whether you want to delete the argument where clicking on "Yes" will delete the argument. Below shows an image of the expected confirmation dialog.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Example of a delete confirmation dialog"
+                src="are-you-sure.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              3. If the deletion is successful then you will be shown a confirmation screen, otherwise an error screen will be displayed.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If successful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Successful argument deletion"
+                          src="successful-delete-arg.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If unsuccessful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Unsuccessful argument deletion"
+                          src="unsuccessful-dialog.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+          </div>
+          <BackButton
+            link="/help/argument"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

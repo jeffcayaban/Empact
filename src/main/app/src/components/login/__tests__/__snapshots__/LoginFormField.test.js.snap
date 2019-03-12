@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginFormField should render successfully 1`] = `
+<FormGroup
+  bsClass="form-group"
+  controlId="testname"
+>
+  <Col
+    bsClass="col"
+    className="loginFieldName"
+    componentClass="div"
+    sm={2}
+  >
+    testName
+  </Col>
+  <Col
+    bsClass="col"
+    componentClass="div"
+    sm={10}
+  >
+    <FormControl
+      bsClass="form-control"
+      componentClass="input"
+      onChange={[MockFunction]}
+      placeholder="testName"
+      required={true}
+      type="text"
+      value="testFieldValue"
+    />
+  </Col>
+</FormGroup>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpertiseCQ should render correctly 1`] = `
+<Uncontrolled(Panel)
+  expanded={false}
+  onToggle={[Function]}
+>
+  <PanelHeading
+    bsClass="panel"
+    className="argumentAssumption"
+    componentClass="div"
+  >
+    <div>
+      <div>
+        <p>
+          1. Can you provide a supporting argument to prove the credibility of the expert,
+                                testExpert?
+        </p>
+        <ul>
+          <li>
+            <p>
+              Does the expert hold any degrees, professional qualifications or
+                                    certification?
+            </p>
+          </li>
+          <li>
+            <p>
+              Does the expert have considerable experience in the area of
+                                    testDomain?
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <UserOpinionBtn
+      showArgTemplates={[Function]}
+      showOption={false}
+    />
+  </PanelHeading>
+  <PanelCollapse
+    bsClass="panel"
+  >
+    <PanelBody
+      bsClass="panel"
+      collapsible={false}
+    >
+      <CreateArgumentOptions
+        handleSelect={[Function]}
+      />
+    </PanelBody>
+  </PanelCollapse>
+</Uncontrolled(Panel)>
+`;

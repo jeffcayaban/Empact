@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageContentPanel should render correctly given the content type is User 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}
+>
+  <Uncontrolled(Panel)>
+    <PanelHeading
+      bsClass="panel"
+      componentClass="div"
+    >
+      <PanelTitle
+        bsClass="panel"
+        componentClass="h3"
+        toggle={true}
+      >
+        Delete User
+      </PanelTitle>
+    </PanelHeading>
+    <PanelCollapse
+      bsClass="panel"
+    >
+      <PanelBody
+        bsClass="panel"
+        collapsible={false}
+      >
+        <p>
+          Enter the username of the user that you wish to 
+          <strong>
+            delete
+          </strong>
+          .
+        </p>
+        <form
+          onSubmit={[Function]}
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            onChange={[Function]}
+            placeholder="Username"
+            required={true}
+            type="text"
+            value=""
+          />
+          <div
+            className="contentActionBtn"
+          >
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="primary"
+              disabled={false}
+              type="submit"
+            >
+              Delete
+            </Button>
+          </div>
+        </form>
+      </PanelBody>
+    </PanelCollapse>
+  </Uncontrolled(Panel)>
+</Grid>
+`;
+
+exports[`ManageContentPanel should render correctly given the content type is not User 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}
+>
+  <Uncontrolled(Panel)>
+    <PanelHeading
+      bsClass="panel"
+      componentClass="div"
+    >
+      <PanelTitle
+        bsClass="panel"
+        componentClass="h3"
+        toggle={true}
+      >
+        Delete Petition
+      </PanelTitle>
+    </PanelHeading>
+    <PanelCollapse
+      bsClass="panel"
+    >
+      <PanelBody
+        bsClass="panel"
+        collapsible={false}
+      >
+        <p>
+          Enter the ID of the petition that you wish to 
+          <strong>
+            delete
+          </strong>
+          .
+        </p>
+        <form
+          onSubmit={[Function]}
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            onChange={[Function]}
+            placeholder="Petition ID"
+            required={true}
+            type="text"
+            value=""
+          />
+          <div
+            className="contentActionBtn"
+          >
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsStyle="primary"
+              disabled={false}
+              type="submit"
+            >
+              Delete
+            </Button>
+          </div>
+        </form>
+      </PanelBody>
+    </PanelCollapse>
+  </Uncontrolled(Panel)>
+</Grid>
+`;

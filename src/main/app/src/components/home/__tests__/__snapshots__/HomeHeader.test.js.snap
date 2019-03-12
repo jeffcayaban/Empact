@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeHeader should render correctly 1`] = `
+<Jumbotron
+  bsClass="jumbotron"
+  componentClass="div"
+  id="homeHeaderContainer"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2
+      align="center"
+      id="headline-text"
+    >
+      Welcome to Empact!
+    </h2>
+    <p
+      id="sub-headline-text"
+    >
+      Ready to make a change?
+    </p>
+    <div
+      id="homeExploreBtn"
+    >
+      <Route
+        render={[Function]}
+      />
+    </div>
+  </div>
+</Jumbotron>
+`;

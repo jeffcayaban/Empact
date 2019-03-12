@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionsTable should render successfully and get all the petitions 1`] = `
+<div>
+  <ClosedCheckbox
+    onChange={[Function]}
+  />
+  <PetitionsContentTable
+    pageNumber={0}
+    petitions={Array []}
+    showFollowUp={true}
+    totalPages={0}
+  />
+</div>
+`;
+
+exports[`PetitionsTable should render successfully and get the most discussed petitions 1`] = `
+<div>
+  <ClosedCheckbox
+    onChange={[Function]}
+  />
+  <PetitionsContentTable
+    pageNumber={0}
+    petitions={Array []}
+    showFollowUp={true}
+    totalPages={0}
+  />
+</div>
+`;

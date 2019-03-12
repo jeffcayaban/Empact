@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableSortByBtn should render successfully given more options are not to be shown 1`] = `
+<div>
+  <DropdownButton
+    disabled={false}
+    id="testId"
+    onSelect={[MockFunction]}
+    title="testTitle"
+  >
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={false}
+      eventKey="1"
+      header={false}
+      key="1"
+    >
+      Newest
+    </MenuItem>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={false}
+      eventKey="2"
+      header={false}
+      key="2"
+    >
+      Oldest
+    </MenuItem>
+  </DropdownButton>
+</div>
+`;
+
+exports[`TableSortByBtn should render successfully given more options are to be shown 1`] = `
+<DropdownButton
+  disabled={false}
+  id="testId"
+  onSelect={[MockFunction]}
+  title="testTitle"
+>
+  <MenuItem
+    bsClass="dropdown"
+    disabled={false}
+    divider={false}
+    eventKey="1"
+    header={false}
+    key="1"
+  >
+    Newest
+  </MenuItem>
+  <MenuItem
+    bsClass="dropdown"
+    disabled={false}
+    divider={false}
+    eventKey="2"
+    header={false}
+    key="2"
+  >
+    Oldest
+  </MenuItem>
+  <MenuItem
+    bsClass="dropdown"
+    disabled={false}
+    divider={false}
+    eventKey="3"
+    header={false}
+    key="3"
+  >
+    Most Discussed
+  </MenuItem>
+  <MenuItem
+    bsClass="dropdown"
+    disabled={false}
+    divider={false}
+    eventKey="4"
+    header={false}
+    key="4"
+  >
+    Least Discussed
+  </MenuItem>
+</DropdownButton>
+`;

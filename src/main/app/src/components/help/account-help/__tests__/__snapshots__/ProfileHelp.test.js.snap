@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Your Profile
+    </h2>
+    <p>
+      Understand the different features of your profile page.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              Your profile page
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <p>
+              Go to your profile page by clicking on the "Profile" link. This link is found on the top navigation bar. You can additionally view another user's profile page by clicking on their name on an argument or petition.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Profile Page Link"
+                src="profile-link.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              Below shows an image of a typical profile page. It features an area for your petitions and another area for your arguments.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Profile Page"
+                src="profile-page.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "80%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <BackButton
+            link="/help/account"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;

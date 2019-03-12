@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile should render correctly given fetches are successful 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;
+
+exports[`UserProfile should render correctly given fetches are unsuccessful 1`] = `
+<Loader
+  isLoading={true}
+/>
+`;

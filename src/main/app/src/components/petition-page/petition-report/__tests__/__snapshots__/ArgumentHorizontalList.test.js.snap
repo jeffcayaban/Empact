@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentHorizontalList should render successfully 1`] = `
+<e
+  alignCenter={true}
+  arrowClass="scroll-menu-arrow"
+  arrowDisabledClass="scroll-menu-arrow--disabled"
+  arrowLeft={
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Object {
+          "icon": Array [
+            448,
+            512,
+            Array [],
+            "f060",
+            "M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z",
+          ],
+          "iconName": "arrow-left",
+          "prefix": "fas",
+        }
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  }
+  arrowRight={
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon={
+        Object {
+          "icon": Array [
+            448,
+            512,
+            Array [],
+            "f061",
+            "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+          ],
+          "iconName": "arrow-right",
+          "prefix": "fas",
+        }
+      }
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  }
+  clickWhenDrag={false}
+  data={
+    Array [
+      <ArgumentListEntry
+        argumentId="testId"
+        labels={
+          Array [
+            "The situation is true",
+            "Argument by Expert Opinion",
+          ]
+        }
+      />,
+    ]
+  }
+  dragging={true}
+  forwardClick={false}
+  hideArrows={false}
+  hideSingleArrow={false}
+  innerWrapperClass="menu-wrapper--inner"
+  itemClass="menu-item-wrapper"
+  itemClassActive="active"
+  menuClass="horizontal-menu"
+  menuStyle={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "userSelect": "none",
+    }
+  }
+  onSelect={[Function]}
+  onUpdate={[Function]}
+  scrollToSelected={false}
+  selected=""
+  transition={0.4}
+  translate={0}
+  wheel={true}
+  wrapperClass="menu-wrapper"
+  wrapperStyle={
+    Object {
+      "overflow": "hidden",
+      "userSelect": "none",
+    }
+  }
+  xPoint={0}
+/>
+`;

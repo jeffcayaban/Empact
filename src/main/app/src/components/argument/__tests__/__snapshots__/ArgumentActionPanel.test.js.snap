@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentActionPanel should correctly call handleDelete given an unknown content type 1`] = `
+<div
+  align="right"
+>
+  <ButtonGroup
+    block={false}
+    bsClass="btn-group"
+    justified={false}
+    vertical={false}
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-argument-tooltip"
+          placement="right"
+        >
+          Permanently delete this argument.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </ButtonGroup>
+</div>
+`;
+
+exports[`ArgumentActionPanel should correctly call handleDelete given the content is a petition 1`] = `
+<div
+  align="right"
+>
+  <ButtonGroup
+    block={false}
+    bsClass="btn-group"
+    justified={false}
+    vertical={false}
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-argument-tooltip"
+          placement="right"
+        >
+          Permanently delete this argument.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </ButtonGroup>
+</div>
+`;
+
+exports[`ArgumentActionPanel should correctly call handleDelete given the content is an argument 1`] = `
+<div
+  align="right"
+>
+  <ButtonGroup
+    block={false}
+    bsClass="btn-group"
+    justified={false}
+    vertical={false}
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-argument-tooltip"
+          placement="right"
+        >
+          Permanently delete this argument.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </ButtonGroup>
+</div>
+`;
+
+exports[`ArgumentActionPanel should correctly display an error given the deleteArgument call fails 1`] = `
+<div
+  align="right"
+>
+  <ButtonGroup
+    block={false}
+    bsClass="btn-group"
+    justified={false}
+    vertical={false}
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-argument-tooltip"
+          placement="right"
+        >
+          Permanently delete this argument.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </ButtonGroup>
+</div>
+`;
+
+exports[`ArgumentActionPanel should render successfully 1`] = `
+<div
+  align="right"
+>
+  <ButtonGroup
+    block={false}
+    bsClass="btn-group"
+    justified={false}
+    vertical={false}
+  >
+    <Route
+      render={[Function]}
+    />
+    <OverlayTrigger
+      defaultOverlayShown={false}
+      overlay={
+        <Tooltip
+          bsClass="tooltip"
+          id="delete-argument-tooltip"
+          placement="right"
+        >
+          Permanently delete this argument.
+        </Tooltip>
+      }
+      placement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="danger"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Delete
+      </Button>
+    </OverlayTrigger>
+  </ButtonGroup>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PetitionContentProperty should render successfully 1`] = `
+<ListGroupItem
+  bsClass="list-group-item"
+  listItem={false}
+>
+  <h5
+    style={
+      Object {
+        "fontWeight": "bold",
+      }
+    }
+  >
+    testLabelText
+  </h5>
+  <p>
+    testText
+  </p>
+</ListGroupItem>
+`;

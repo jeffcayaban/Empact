@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentRetrievalAlert should render successfully 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="danger"
+  closeLabel="Close alert"
+>
+  <h4>
+    Sorry, an occur has occurred.
+  </h4>
+  <p>
+    There was a problem retrieving the 
+    petition
+    . Click on the button below to explore the other petitions.
+  </p>
+  <div
+    style={
+      Object {
+        "marginTop": "15px",
+      }
+    }
+  >
+    <Route
+      render={[Function]}
+    />
+  </div>
+</Alert>
+`;

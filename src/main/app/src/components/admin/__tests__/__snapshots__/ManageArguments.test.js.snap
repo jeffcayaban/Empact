@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageArguments should render an alert given the user is not logged in. 1`] = `<NotPermittedAlert />`;
+
+exports[`ManageArguments should render correctly given the logged in user is an admin 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Arguments
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Argument"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManageArguments should successfully delete an argument 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Arguments
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Argument"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`ManageArguments should unsuccessfully delete an argument given the API call was not successful 1`] = `
+<div>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Manage Arguments
+    </h2>
+  </div>
+  <div
+    className="manageContentActionPanels"
+  >
+    <ManageContentPanel
+      contentAction="Delete"
+      contentType="Argument"
+      currentUser={
+        Object {
+          "authorities": Array [
+            "ROLE_ADMIN",
+          ],
+        }
+      }
+      handleSubmit={[Function]}
+      isAuthenticated={true}
+    />
+  </div>
+</div>
+`;

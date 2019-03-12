@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateArgumentHelp should render successfully 1`] = `
+<div
+  className="secondaryPageContainerStyle"
+>
+  <div
+    className="centerStyle"
+  >
+    <h2>
+      Creating an Argument
+    </h2>
+    <p>
+      Understand how to create an argument.
+    </p>
+  </div>
+  <div
+    className="titleContentPadding"
+  >
+    <Grid
+      bsClass="container"
+      className="divNoPadding"
+      componentClass="div"
+      fluid={false}
+    >
+      <Row
+        bsClass="row"
+        componentClass="div"
+      >
+        <Col
+          bsClass="col"
+          componentClass="div"
+          lg={12}
+          md={12}
+        >
+          <div>
+            <h4
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              How to create an argument
+            </h4>
+            <hr
+              className="helpHr"
+            />
+            <Alert
+              bsClass="alert"
+              bsStyle="info"
+              closeLabel="Close alert"
+            >
+              You will need to be logged in into a user account and to either be on an existing petition page or an existing argument page in order to create an argument.
+            </Alert>
+            <p>
+              1. Locate the dialog that invites you to create an argument on the petition or argument that you wish to create an argument for and answer its question by clicking on one of the two buttons. The dialog that you are looking for should appear as follows:
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={4}
+                    md={4}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          On a petition
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Create Argument Dialog on Petition"
+                          src="create-arg-dialog-petition.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={4}
+                    md={4}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          On an argument
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Create Argument Dialog on Argument"
+                          src="create-arg-dialog-argument.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={4}
+                    md={4}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If you are the argument or petition creator on the respective page.
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Create Argument Dialog as Creator"
+                          src="create-arg-dialog-owner.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+            <p>
+              2. Clicking on any of the buttons will redirect you to a page of questions. By answering a question, you will then be invited to create an argument based on a specific template. After selecting a template, you can enter the details of your viewpoint where optionally, you can provide up to two sources to further support your argument. You can also select to create your argument anonymously. An example of what you may see is shown below:
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Example of a Critical Question"
+                src="cq-example.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "45%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              3. Clicking on the submit button will display a dialog to confirm whether the details of the argument accurately reflect your viewpoint. Clicking on "Yes" will create the argument with the details that you have provided. Below shows an image of the expected confirmation dialog.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingBottom": "20px",
+                  "paddingTop": "20px",
+                }
+              }
+            >
+              <img
+                alt="Example of a Critical Question"
+                src="create-arg-confirm.png"
+                style={
+                  Object {
+                    "align": "center",
+                    "maxWidth": "30%",
+                    "minWidth": "350px",
+                  }
+                }
+              />
+            </div>
+            <p>
+              4. If the creation is successful then you will be shown a confirmation screen, otherwise an error screen will be displayed.
+            </p>
+            <div
+              className="centerStyle"
+              style={
+                Object {
+                  "paddingTop": "15px",
+                }
+              }
+            >
+              <Grid
+                bsClass="container"
+                className="divNoPadding"
+                componentClass="div"
+                fluid={false}
+              >
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If successful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Successful Argument Creation Screen"
+                          src="successful-arg-creation.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                  <Col
+                    bsClass="col"
+                    componentClass="div"
+                    lg={6}
+                    md={6}
+                  >
+                    <Uncontrolled(Panel)>
+                      <PanelHeading
+                        bsClass="panel"
+                        componentClass="div"
+                      >
+                        <PanelTitle
+                          bsClass="panel"
+                          componentClass="div"
+                        >
+                          If unsuccessful
+                        </PanelTitle>
+                      </PanelHeading>
+                      <PanelBody
+                        bsClass="panel"
+                        className="centerStyle"
+                        collapsible={false}
+                      >
+                        <img
+                          alt="Unsuccessful Argument Creation Screen"
+                          src="unsuccessful-arg-creation.png"
+                          style={
+                            Object {
+                              "align": "center",
+                              "width": "320px",
+                            }
+                          }
+                        />
+                      </PanelBody>
+                    </Uncontrolled(Panel)>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+          </div>
+          <BackButton
+            link="/help/argument"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </div>
+</div>
+`;
