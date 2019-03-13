@@ -48,12 +48,12 @@ The following steps shows how you can clone the project through Git:
 
 1. Open Terminal (if you are using macOS) or Command Prompt (if you are on Windows)
 2. Go to a directory or folder you wish to have the project downloaded to.
-> To change directory, use the `cd` command.
+   > To change directory, use the `cd` command.
 4. Then run the following command to download the project into that directory:
 
-```bash
-git clone https://github.com/jeffcayaban/Empact.git
-```
+   ```bash
+   git clone https://github.com/jeffcayaban/Empact.git
+   ```
 
 <a class="anchor" id="building"></a>
 ### Building
@@ -66,22 +66,22 @@ If you are running **macOS**:
 1. Open Terminal and navigate to the root of the project's directory.
 2. Then run the following command:
 
-```bash
-./mvnw package
-```
+   ```bash
+   ./mvnw package
+   ```
 
 If you are using are using **Windows**:
 1. Open Command Prompt and navigate to the root of the project's directory.
 2. Then run the following command:
 
-```bash
-mvnw.cmd package
-```
-> You will know if the build was a success once you see a message saying "BUILD SUCCESS".
+   ```bash
+   mvnw.cmd package
+   ```
+   > You will know if the build was a success once you see a message saying "BUILD SUCCESS".
 
-<p align="center">
-  <img alt="SuccessfulBuild" title="Successful Build" src="https://i.ibb.co/T8nYF1v/built-success.png" width="600">
-</p>
+   <p align="center">
+     <img alt="SuccessfulBuild" title="Successful Build" src="https://i.ibb.co/T8nYF1v/built-success.png" width="600">
+   </p>
 
 <a class="anchor" id="usage"></a>
 ## Usage
@@ -90,19 +90,19 @@ Once you have built the project, you can now start to use the system. To do so, 
 
 1. Open Terminal (if you are using macOS) or Command Prompt (if you are on Windows)
 2. Navigate to the root of the project's directory.
-> To change directory, use the `cd` command.
+   > To change directory, use the `cd` command.
 3. Then run the following command:
 
-```bash
-java -jar target/Empact-0.0.1-SNAPSHOT.jar
-```
+   ```bash
+   java -jar target/Empact-0.0.1-SNAPSHOT.jar
+   ```
 4. Once you see the message: `Started EmpactApplication in ...` you can then proceed to opening the system's website. To view the website, go to http://localhost:5000
 
-> Below shows the message you should see:
+   > Below shows the message you should see:
 
-<p align="center">
-  <img alt="CodeCoverageReport" title="Client-Side Code Coverage Report" src="https://i.ibb.co/d0VgMGW/running.png" width="900">
-</p>
+   <p align="center">
+     <img alt="CodeCoverageReport" title="Client-Side Code Coverage Report" src="https://i.ibb.co/d0VgMGW/running.png" width="900">
+   </p>
 
 <a class="anchor" id="runningtests"></a>
 ## Running Tests
@@ -122,14 +122,14 @@ Once installed, follow the following steps:
 2. Navigate to the root of the project's directory and navigate further to the `src/main/app` folder.
 3. Run the following command:
 
-```bash
-yarn test --coverage
-```
-> Whilst the command is being executed, you will be able to see the tests that are passing. When the tests are finished, you will be shown a report of statistics regarding code coverage. Below shows an example of what you will see.
+   ```bash
+   yarn test --coverage
+   ```
+   > Whilst the command is being executed, you will be able to see the tests that are passing. When the tests are finished, you will be shown a report of statistics regarding code coverage. Below shows an example of what you will see.
 
-<p align="center">
-  <img alt="CodeCoverageReport" title="Client-Side Code Coverage Report" src="https://i.ibb.co/YtfSTwv/client-side-report.png" width="900">
-</p>
+   <p align="center">
+     <img alt="CodeCoverageReport" title="Client-Side Code Coverage Report" src="https://i.ibb.co/YtfSTwv/client-side-report.png" width="900">
+   </p>
 
 <a class="anchor" id="serversidetests"></a>
 ### Server Side Tests
@@ -142,17 +142,17 @@ If you are running **macOS**:
 1. Open Terminal and navigate to the root of the project's directory.
 2. Then run the following command:
 
-```bash
-./mvnw test
-```
+   ```bash
+   ./mvnw test
+   ```
 
 If you are using are using **Windows**:
 1. Open Command Prompt and navigate to the root of the project's directory.
 2. Then run the following command:
 
-```bash
-mvnw.cmd test
-```
+   ```bash
+   mvnw.cmd test
+   ```
 
 > Once the tests are completed, you will be shown a short summary the results. They should look as follows (if successful):
 
