@@ -1,4 +1,5 @@
 
+
 <h1 align="center"> Empact</h1> <br>
 
 <p align="center">
@@ -86,6 +87,8 @@ If you are using are using **Windows**:
 <a class="anchor" id="usage"></a>
 ## Usage
 
+> You will need to have an internet connection in order to utilise the system, this is due to the system depending on an external database.
+
 Once you have built the project, you can now start to use the system. To do so, follow the following steps:
 
 1. Open Terminal (if you are using macOS) or Command Prompt (if you are on Windows)
@@ -103,6 +106,14 @@ Once you have built the project, you can now start to use the system. To do so, 
    <p align="center">
      <img alt="CodeCoverageReport" title="Client-Side Code Coverage Report" src="https://i.ibb.co/d0VgMGW/running.png" width="900">
    </p>
+
+You will be shown the homepage upon visiting http://localhost:5000. It will look as follows:
+
+   <p align="center">
+     <img alt="Homepage" title="Homepage" src="https://i.ibb.co/1Td9GHv/homepage.png" width="700">
+   </p>
+
+
 
 <a class="anchor" id="runningtests"></a>
 ## Running Tests
