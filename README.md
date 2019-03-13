@@ -1,4 +1,5 @@
 
+
 <h1 align="center"> Empact</h1> <br>
 
 <p align="center">
@@ -103,6 +104,14 @@ Once you have built the project, you can now start to use the system. To do so, 
    <p align="center">
      <img alt="CodeCoverageReport" title="Client-Side Code Coverage Report" src="https://i.ibb.co/d0VgMGW/running.png" width="900">
    </p>
+
+You will be shown the homepage upon visiting http://localhost:5000. It will look as follows:
+
+   <p align="center">
+     <img alt="Homepage" title="Homepage" src="https://i.ibb.co/1Td9GHv/homepage.png" width="900">
+   </p>
+
+
 
 <a class="anchor" id="runningtests"></a>
 ## Running Tests
