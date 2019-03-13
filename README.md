@@ -154,8 +154,8 @@ If you are using are using **Windows**:
    mvnw.cmd test
    ```
 
-> Once the tests are completed, you will be shown a short summary the results. They should look as follows (if successful):
+   > Once the tests are completed, you will be shown a short summary the results. They should look as follows (if successful):
 
-<p align="center">
-  <img alt="ServerSideReport" title="Server-Side Code Coverage Report" src="https://i.ibb.co/k2h4wfF/server-side-report.png" width="400">
-</p>
+   <p align="center">
+     <img alt="ServerSideReport" title="Server-Side Code Coverage Report" src="https://i.ibb.co/k2h4wfF/server-side-report.png" width="400">
+   </p>
