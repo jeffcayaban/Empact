@@ -108,7 +108,7 @@ Once you have built the project, you can now start to use the system. To do so, 
 You will be shown the homepage upon visiting http://localhost:5000. It will look as follows:
 
    <p align="center">
-     <img alt="Homepage" title="Homepage" src="https://i.ibb.co/1Td9GHv/homepage.png" width="900">
+     <img alt="Homepage" title="Homepage" src="https://i.ibb.co/1Td9GHv/homepage.png" width="700">
    </p>
 
 
