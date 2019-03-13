@@ -87,6 +87,8 @@ If you are using are using **Windows**:
 <a class="anchor" id="usage"></a>
 ## Usage
 
+> You will need to have an internet connection in order to utilise the system, this is due to the system depending on an external database.
+
 Once you have built the project, you can now start to use the system. To do so, follow the following steps:
 
 1. Open Terminal (if you are using macOS) or Command Prompt (if you are on Windows)
