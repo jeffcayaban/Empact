@@ -249,7 +249,9 @@ export function checkSourceUrlsIsValid(sources) {
     if (sources !== undefined && sources !== null) {
         let i;
         for (i = 0; i < sources.length; i++) {
-            return (!VALID_URL_PREFIX_REGEX.test(sources[i])) && false;
+            if (!VALID_URL_PREFIX_REGEX.test(sources[i])) {
+                return false;
+            }
         }
     }
     return true;
