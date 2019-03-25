@@ -170,3 +170,37 @@ If you are using are using **Windows**:
    <p align="center">
      <img alt="ServerSideReport" title="Server-Side Code Coverage Report" src="https://i.ibb.co/k2h4wfF/server-side-report.png" width="400">
    </p>
+
+## External Dependencies
+
+The system uses many open source libraries and packages. Below shows the different dependencies and how they are applied within the system.
+
+### Front End Dependencies:
+* [FontAwesome](https://fontawesome.com/) - Used to display icons on the website to help users to better understand certain features.
+* [D3.js](https://d3js.org/) - Is a dependency for `react-d3-tree`. 
+* [Moment.js](https://momentjs.com/) - Is used for parsing timestamps from API responses and for manipulating dates to be displayed to the user.
+* [React](https://reactjs.org/) - Is a JavaScript library that is used to build the pages and the individual UI components of the system.
+* [React Bootstrap](https://react-bootstrap.github.io/) - Is a React library that contains a set of components. Many components from this library have been used within the system pages.
+* [react-copy-to-clipboard](https://www.npmjs.com/package/react-copy-to-clipboard) - Is a React component that is used for the "Share" functionality. It is found in arguments and petitions.
+* [react-d3-tree](https://www.npmjs.com/package/react-d3-tree) - Is a React component that is used for rendering a data visualisation of the arguments made to a petition or to another argument.
+* [react-datepicker](https://www.npmjs.com/package/react-datepicker) - Is a React component that is used to allow users to select a date for their petitions
+* [react-dom](https://www.npmjs.com/package/react-dom) - Is used in conjunction with React.
+* [react-horizontal-scrolling-menu](https://www.npmjs.com/package/react-horizontal-scrolling-menu) - Is a React component that is used to display the list of arguments for a petition report.
+* [react-router-bootstrap](https://www.npmjs.com/package/react-router-bootstrap) - Is used for allowing React Bootstrap link components to work with the React Router.
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Is used with the React Router.
+* [react-scripts](https://www.npmjs.com/package/react-scripts) - Is a dependency of React and is used to help run certain scripts. For example, for producing the build files.
+* [react-spinners](https://www.npmjs.com/package/react-spinners) - Is a library of spinners in the form of React components. They are used for when a process is being performed on the system.
+* [react-toastify](https://www.npmjs.com/package/react-toastify) - Is a React library of notification components. They are used to notify the user of a successful or unsuccessful login.
+* [sweetalert2](https://sweetalert2.github.io/) - Is a JavaScript library of alert components. They are used for displaying the outcome of any operations that are performed in the system.
+
+### Back End Dependencies:
+
+* [Spring Data](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa) - Is used for accessing the data from the database.
+* [Spring Security](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security) - Is used for authenticating users on the system.
+* [Spring Boot Web Starter](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web) - Provides the functionalities required to RESTful services.
+* [MySQL Connector for Java](https://mvnrepository.com/artifact/mysql/mysql-connector-java) - Is used for allowing the Java application to communicate with the SQL database.
+* [Spring Boot Test Starter](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test) - Is used to provide the framework for testing a Spring Boot application.
+* [Project Lombok](https://projectlombok.org/) - Used to reduce the boilerplate code for constructors, getters and setters.
+* [Java JWT](https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt) - Is used to generate and authenticate JWT tokens.
+* [Jackson Datatype: JSR310](https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310) - Is used to enable Jackson support for Java 8 date and time.
+* [Mockito](https://site.mockito.org/) - Is used mocking code for unit tests.
