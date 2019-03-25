@@ -36,9 +36,9 @@ Follow these instructions to learn how to install and setup the project files.
 ### Prerequisites
 
 You will need the following technologies in order to run the system:
-* Java 1.8 - [Install](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* Java SE Development Kit 8 - [Install](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-> Note: After installing Java 1.8, ensure that the `JAVA_HOME` environment variable is set properly on your system. Click [here](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/) to learn how.
+> Note: After installing Java, ensure that the `JAVA_HOME` environment variable is set properly on your system. Click [here](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/) to learn how.
 
 <a class="anchor" id="installing"></a>
 ### Installing
