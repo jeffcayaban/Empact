@@ -195,6 +195,17 @@ public class ArgumentController {
 		return argumentService.getArgumentsByArgumentId(argumentId, isSupporting, page, size, sort);
 	}
 
+	/**
+	 * Gets the most discussed arguments of a given petition.
+	 *
+	 * @param page The page number.
+	 * @param size The page size.
+	 * @param sort How the results are to be sorted.
+	 * @param petitionId The ID of the petition to be fetched from.
+	 * @param isSupporting Indicates whether the arguments fetched should be supporting or opposing.
+	 * @return The page of arguments.
+	 */
+
 	@GetMapping("/getMostDiscussedArgsForPetition")
 	public PagedResponse<ArgumentResponse> getMostDiscussedArgsForPetition(
 			@RequestParam(value = "page") int page,
@@ -206,6 +217,17 @@ public class ArgumentController {
 		return argumentService.getMostDiscussedArgsForPetition(page, size, sort, petitionId, isSupporting);
 	}
 
+	/**
+	 * Gets the most discussed arguments of a given argument.
+	 *
+	 * @param page The page number.
+	 * @param size The page size.
+	 * @param sort How the results are to be sorted.
+	 * @param argumentId The ID of the argument to be fetched from.
+	 * @param isSupporting Indicates whether the arguments fetched should be supporting or opposing.
+	 * @return The page of arguments.
+	 */
+
 	@GetMapping("/getMostDiscussedArgsForArgument")
 	public PagedResponse<ArgumentResponse> getMostDiscussedArgsForArgument(
 			@RequestParam(value = "page") int page,
@@ -216,6 +238,17 @@ public class ArgumentController {
 
 		return argumentService.getMostDiscussedArgsForArgument(page, size, sort, argumentId, isSupporting);
 	}
+
+	/**
+	 * Gets the most discussed arguments of a given user.
+	 *
+	 * @param page The page number.
+	 * @param size The page size.
+	 * @param sort How the results are to be sorted.
+	 * @param username The username of the user to be fetched from.
+	 * @param showAnonymousContent Indicates whether to include arguments that are created anonymously.
+	 * @return The page of arguments.
+	 */
 
 	@GetMapping("/getMostDiscussedArgsForUser")
 	public PagedResponse<ArgumentResponse> getMostDiscussedArgsForUser(
