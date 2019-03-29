@@ -1,3 +1,5 @@
+/** This file is generated from create-react-app. **/
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
