@@ -1,5 +1,6 @@
 
 
+
 <h1 align="center"> Empact</h1> <br>
 
 <p align="center">
@@ -14,13 +15,15 @@
 
 * [Introduction](#introduction)
 * [Installation](#installation) 
-	* [Prerequisites](#prerequisites)
-	* [Installing](#installing)
-	* [Building](#building)
+  * [Prerequisites](#prerequisites)
+  * [Installing](#installing)
+  * [Building](#building)
 * [Usage](#usage)
 * [Running Tests](#runningtests)
-	* [Client Side Tests](#clientsidetests)
-	* [Server Side Tests](#serversidetests)
+  * [Client Side Tests](#clientsidetests)
+  * [Server Side Tests](#serversidetests)
+* [External Dependencies](#externaldependencies)
+* [Acknowledgements](#acknowledgements)
 
 <a class="anchor" id="introduction"></a>
 ## Introduction
@@ -171,6 +174,7 @@ If you are using are using **Windows**:
      <img alt="ServerSideReport" title="Server-Side Code Coverage Report" src="https://i.ibb.co/k2h4wfF/server-side-report.png" width="400">
    </p>
 
+<a class="anchor" id="externaldependencies"></a>
 ## External Dependencies
 
 The system uses many open source libraries and packages. Below shows the different dependencies and how they are applied within the system.
@@ -204,3 +208,10 @@ The system uses many open source libraries and packages. Below shows the differe
 * [Java JWT](https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt) - Is used to generate and authenticate JWT tokens.
 * [Jackson Datatype: JSR310](https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310) - Is used to enable Jackson support for Java 8 date and time.
 * [Mockito](https://site.mockito.org/) - Is used mocking code for unit tests.
+
+<a class="anchor" id="acknowledgements"></a>
+## Acknowledgements
+
+Parts of the system has been created by following a tutorial by Rajeev Kumar Singh. The link to the tutorial is as follows:
+
+[https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-1/](https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-1/)
