@@ -11,6 +11,9 @@ import java.util.List;
  * The response object that contains the page of content. It carries pagination properties that is used to display
  * content on a table from the client-side.
  *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/
+ *
  * @param <T> Commonly used for arguments and petitions.
  */
 

@@ -21,6 +21,9 @@ import static com.empact.Empact.util.AppConstants.AUTHORIZATION;
 
 /**
  * Used for setting the logged in user into the current security context.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
  */
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {

@@ -33,6 +33,9 @@ import static com.empact.Empact.util.AppConstants.USERNAME;
 /**
  *  The UserService handles all data manipulation and transformation regarding Users. It also interacts with the
  *  data repositories and produces the response objects to be returned to the Controller layer.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
  */
 
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))

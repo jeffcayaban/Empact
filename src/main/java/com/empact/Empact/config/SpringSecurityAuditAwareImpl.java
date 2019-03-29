@@ -13,6 +13,9 @@ import java.util.Optional;
 
 /**
  * Provides methods to identify the user who is currently using the system.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/
  */
 
 public class SpringSecurityAuditAwareImpl implements AuditorAware<User>  {

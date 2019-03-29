@@ -2,6 +2,9 @@ package com.empact.Empact.util;
 
 /**
  * AppConstants contain the constants that are commonly used in areas of the application.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/
  */
 
 public interface AppConstants {

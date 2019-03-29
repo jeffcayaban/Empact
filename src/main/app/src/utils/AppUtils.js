@@ -1,3 +1,11 @@
+/**
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-4/
+ *
+ * This file is based on the file created by Rajeev Kumar Singh (as part of the tutorial mentioned above):
+ * https://github.com/callicoder/spring-security-react-ant-design-polls-app/blob/master/polling-app-client/src/util/APIUtils.js
+ */
+
 import {API_BASE_URL, AUTHORIZATION_HEADER_FIELD} from '../constants';
 import {ACCESS_TOKEN, AUTHORIZATION_TOKEN_TYPE, PETITION_LIST_SIZE} from "../constants";
 

@@ -7,6 +7,9 @@ import com.empact.Empact.payload.User.UserSummary;
 
 /**
  * The ModelMapper provides the functions to transform data into data that is expected by the client.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/
  */
 
 public class ModelMapper {

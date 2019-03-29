@@ -14,6 +14,9 @@ import java.time.Instant;
 
 /**
  * Stores the details of when a petition or argument is created and updated.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-1/
  */
 
 @MappedSuperclass

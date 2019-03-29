@@ -8,6 +8,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * The configuration for auditing any modifications to the database.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/
  */
 
 @Configuration
