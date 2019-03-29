@@ -25,6 +25,9 @@ import java.net.URI;
 
 /**
  * The UserController intercepts requests to fetch data regarding the User.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/
  */
 
 @RestController

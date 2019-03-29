@@ -12,6 +12,9 @@ import java.util.Date;
 
 /**
  * Produces and validates JwT tokens for the client-side to use when making requests to the server-side APIs.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
  */
 
 @Component

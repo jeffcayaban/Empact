@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * The exception for when an a resource could not be found within the database.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
  */
 
 @ResponseStatus(HttpStatus.NOT_FOUND)

@@ -8,6 +8,9 @@ import static com.empact.Empact.util.AppConstants.BEARER;
 
 /**
  * The response object containing the bearer token that is required to be passed with selected requests to the APIs.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
  */
 
 @Data

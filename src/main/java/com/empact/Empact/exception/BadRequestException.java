@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * The exception for when an error occurred due to a bad request that was made.
+ *
+ * This file was created as a result of following this tutorial by Rajeev Kumar Singh:
+ * https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
  */
 
 @ResponseStatus(HttpStatus.BAD_REQUEST)
