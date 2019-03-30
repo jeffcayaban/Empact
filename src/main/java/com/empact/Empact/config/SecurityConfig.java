@@ -150,7 +150,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				"/api/arguments/editArgumentByPopularOpinion",
 				"/api/arguments/editArgumentByExpertOpinion",
 				"/api/arguments/delete",
-				"/api/arguments/delete",
 				"/auth/deleteUser"
 		).access("hasAnyRole('ROLE_USER', 'ROLE_ADMIN')");
 
