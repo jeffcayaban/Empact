@@ -761,6 +761,7 @@ public class ArgumentService {
 		argumentResponse.setCriticalQuestionId(argument.getCriticalQuestion().name());
 		argumentResponse.setCreationDateTime(argument.getCreatedAt());
 		argumentResponse.setLastUpdatedDateTime(argument.getUpdatedAt());
+		argumentResponse.setIsWinning(argument.getIsWinning());
 
 		Argument parentArg = argument.getParentArgument();
 

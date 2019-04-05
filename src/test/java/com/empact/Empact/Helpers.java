@@ -193,6 +193,7 @@ public class Helpers {
 		mockArgument.setParentArgument(null);
 		mockArgument.setArguments(Collections.emptyList());
 		mockArgument.setSources(Collections.emptyList());
+		mockArgument.setIsWinning(true);
 
 		mockArgument.setIsAnonymous(false);
 		mockArgument.setIsWinning(true);
@@ -230,6 +231,7 @@ public class Helpers {
 		mockArgument.setParentArgument(null);
 		mockArgument.setArguments(Collections.emptyList());
 		mockArgument.setSources(Collections.emptyList());
+		mockArgument.setIsWinning(true);
 
 		mockArgument.setIsAnonymous(false);
 		mockArgument.setIsWinning(true);
