@@ -9,11 +9,16 @@ import ParentArgumentBtn from "./ParentArgumentBtn";
 class ContentPreviewBtns extends React.PureComponent {
 
     render() {
-        const { parentArgId, showArg, showPetition } = this.props;
+        const { parentArgId, showArg, showPetition, isWinning } = this.props;
+        const isWinningText = isWinning ? 'Winning' : 'Losing';
+
         return (
-            <ListGroupItem>
-                <ParentArgumentBtn parentArgId={parentArgId} showArg={showArg} />
-                <Button onClick={() => showPetition()}>Related Petition</Button>
+            <ListGroupItem className={"spaceBetweenElements"}>
+                <div>
+                    <ParentArgumentBtn parentArgId={parentArgId} showArg={showArg} />
+                    <Button onClick={() => showPetition()}>Related Petition</Button>
+                </div>
+                <p style={{ margin: '0px', lineHeight: '35px' }}>{isWinningText}</p>
             </ListGroupItem>
         )
     }

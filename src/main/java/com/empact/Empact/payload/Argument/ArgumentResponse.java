@@ -20,6 +20,9 @@ public class ArgumentResponse {
 	/** Indicates whether the argument is supporting or opposing another argument or petition. **/
 	private @NotNull Boolean isSupporting;
 
+	/** Indicates whether the argument is winning or not. **/
+	private @NotNull Boolean isWinning;
+
 	/** The petition that the argument belongs to. **/
 	private @NotNull Long rootPetitionId;
 

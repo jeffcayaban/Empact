@@ -17,6 +17,7 @@ class ExpertOpinion extends React.PureComponent {
         const argumentTitle = (argument.parentArgumentId !== null && labels[2] !== undefined) ? labels[2] : labels[0];
 
         const contentPreviewBtns = includePreview && <ContentPreviewBtns parentArgId={parentArgumentId}
+                                                                         isWinning={argument.isWinning}
                                                                          showArg={showArg} showPetition={showPetition} />;
 
         return (
