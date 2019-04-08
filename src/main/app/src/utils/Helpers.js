@@ -371,8 +371,9 @@ export function comparePetitionData(existingData, newData) {
     const valueIsSame = existingData.value === newData.value;
     const titleIsSame = existingData.title === newData.title;
     const isAnonymousSame = existingData.isAnonymous === newData.isAnonymous;
+    const isClosingDateSame = moment(existingData.closingDateTime).valueOf() === newData.closingDateTime;
 
-    return actionIsSame && goalIsSame && situationIsSame && valueIsSame && titleIsSame && isAnonymousSame;
+    return actionIsSame && goalIsSame && situationIsSame && valueIsSame && titleIsSame && isAnonymousSame && isClosingDateSame;
 }
 
 /** Check whether any changes have been made between two sets of "argument by expert opinion" data. **/
